@@ -1,0 +1,44 @@
+
+<link rel="stylesheet" type="text/css" href="/registro.component.css">
+
+<script>
+  function validarContraseñas() {
+    var password1 = document.getElementById("password1").value;
+    var password2 = document.getElementById("password2").value;
+
+    // Verificar si las contraseñas no coinciden
+    if (password1 !== password2) {
+        document.getElementById("error-message").style.display = "block";
+        return false; // Evita que se envíe el formulario
+    }
+
+    // Si las contraseñas coinciden, no se muestra el mensaje y se permite enviar el formulario
+    document.getElementById("error-message").style.display = "none";
+    return true; 
+}
+</script>
+
+
+<div class="registro">
+  <div class="encabezado">
+    <img class="img-logo" src="assets/app.png" alt="Logo de la aplicación">
+    <h2>REGISTRO</h2>
+    <h4>Ingresa tus datos</h4>
+  </div>
+  <h4 class="inputs">Cuéntanos qué tipo de usuario eres:</h4>
+              <select class="select-css">
+                  <option value="opcion1">Independiente</option>
+                  <option value="opcion2">Corredor Inmobiliario</option>
+                  <option value="opcion3">Empresa Inmobiliaria</option>
+              </select>
+              <h4 class="inputs">Correo electrónico:</h4>
+              <input class="get-info" type="email" placeholder="Ejemplo@correo.com">
+
+              <h4 class="inputs">Contraseña</h4>
+              <input class="get-info" type="password">
+              <h4 class="inputs">Repite la contraseña</h4>
+              <input class="get-info" type="password" style="margin-bottom: 30px;">
+              <img class="img-registro" src="../assets/img/Registrarme.png" alt="Botón de registro">
+              <h4>REGISTRARME</h4>
+
+</div>

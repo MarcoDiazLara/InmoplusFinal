@@ -1,0 +1,239 @@
+/* menu.component.css (o tu archivo de estilos) */
+/* tu-componente.component.css (o .scss) */
+.container {
+    display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    /*border: 4px solid black;*/
+  }
+
+  .container .logo {
+    width: 120px;
+    
+    border: 0px solid white;
+  }
+
+
+  .contenedor_enlaces {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #FFFFFF;
+    margin-left: 80px;
+  }
+
+
+/*  boton de buscar  */
+
+.button {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #07732D;
+  border-radius: 2px;
+  position: relative;
+  background-color:#FFFFFF;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+}
+
+.button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #07732D;
+  z-index: -1;
+}
+
+.button:hover, .butto:focus {
+  color: 	#FFFFFF;
+}
+
+.button:hover:before, .butto:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+
+
+   
+  .MovimientoBoton{
+    margin-left: 150px;
+   border: 0px solid #FFFFFF;
+  margin-top: 9px;
+
+  }
+   .borM{
+      border: 0px solid #FFFFFF;
+      margin-left:10px;
+
+    }
+
+  
+ 
+  
+  
+  
+  .imagen-izquierda {
+    width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+  }
+
+
+  .Movimiento{
+    border: 0px solid #FFFFFF;
+    margin-left: 10px;
+
+
+  }
+
+  .mov{
+
+    border: 4px solid white ;
+
+
+  }
+  
+  .menu-horizontal {
+    
+    list-style: none; /* Quita los puntos de lista predeterminados */
+    display: flex; /* Utiliza flexbox para alinear las opciones de menú horizontalmente */
+    align-items: center;
+    /*margin-left: auto; /* Empuja el menú horizontal hacia la derecha para que esté pegado a la imagen */
+  }
+  
+  .menu-horizontal li {
+    margin-right: 20px; /* Agrega un margen derecho entre las opciones de menú */
+    padding: 20px;
+  }
+  
+  .menu-horizontal a {
+    text-decoration: none; /* Quita la decoración de enlace subrayado */
+    color: #333; /* Define el color de texto para las opciones de menú */
+  }
+  .imagen-estilo {
+    width: 60px; /* Ancho deseado */
+    height: 60; /* Para mantener la proporción original de la imagen */
+    margin-left: 9px; /* Para mover de lado derecho original de la imagen */
+    border: 0px solid #FFFFFF;
+    
+  } 
+
+
+/* Estilos para las opciones del menú */
+.mat-menu-content {
+  background-color: #fff; /* Color de fondo del menú */
+  border: 1px solid #ccc; /* Borde del menú */
+  border-radius: 5px; /* Borde redondeado del menú */
+}
+
+.mat-menu-item {
+  color: #333; /* Color del texto de las opciones del menú */
+  padding: 8px 20px; /* Espaciado interno de las opciones del menú */
+}
+
+.mat-menu-item:hover {
+  background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor sobre las opciones */
+}
+
+  .line {
+    width: 30px;
+    height: 3px;
+    c: #044504; /* Cambia este color según tus preferencias */
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-button.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  
+  .menu-button.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-button.active .line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  .menu-horizontal li a {
+    color: #333; /* Color de texto predeterminado */
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    transition: color 0.3s; /* Animación de transición para el cambio de color */
+  }
+
+   .menu-horizontal li a:hover {
+    color: #95BF39; /* Cambia el color del texto cuando el mouse pasa sobre el enlace */
+  }
+
+
+  .boton2 {
+ border: 0px solid 	#FFFFFF;
+ margin-top: 8px;
+
+  }
+
+  .butto {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #07732D;
+    border-radius: 2px;
+    position: relative;
+    background-color:#FFFFFF;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    margin-left: 60px;
+  }
+  
+ .butto:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #07732D;
+    z-index: -1;
+  }
+  
+  .butto:hover, .butto:focus {
+    color: 	#FFFFFF;
+  }
+  
+  .butto:hover:before, .butto:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  butto:active {
+    transform: scale(0.9);
+  }

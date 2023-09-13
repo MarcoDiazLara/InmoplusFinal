@@ -1,0 +1,75 @@
+.movi {
+
+   margin-top: 250px;
+
+
+}
+
+
+
+h1{
+	font-size: 35px; 
+	text-align:center;
+	margin-top:50px;
+	
+	
+}
+
+
+.container {
+   position: absolute;
+   left: 48%;
+   top: 45%;
+   transform: translate(-50%,-50%);
+   padding: 10px;
+   margin-top: 700px;
+   margin-left: 30px;
+
+}
+
+input {
+   outline: none;
+   box-sizing: border-box;
+   height: 60px;
+   width: 0px;
+   padding: 0 20px;
+   color: #000;
+   border-radius: 50px;
+   font-size: 20px;
+   border: 1px solid  #044504;
+   transition: all .7s ease;
+
+}
+
+::placeholder {
+   color: grey;
+}
+
+.btn {
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   width: 80px;
+   height: 80px;
+   background: #044504;
+   line-height: 80px;
+   border-radius: 50%;
+   text-align: center;
+   cursor: pointer;
+   transition: .5s;
+}
+
+.btn i {
+   font-size: 25px;
+   color: white;
+   line-height: 80px;
+   transition: all .7s ease;
+}
+
+.container:hover input {
+   width: 350px;
+}
+
+.container:hover i{
+   transform: rotate(-360deg);
+}

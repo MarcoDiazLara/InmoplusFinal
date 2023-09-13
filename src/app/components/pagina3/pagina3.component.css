@@ -1,0 +1,59 @@
+
+ h2{
+  text-align:center;
+  font-size:26px;
+  margin-bottom: 120px;
+
+ }
+    /* styles.css (o styles.scss) */
+    .horizontal-line {
+        border-top: 12px solid #07732D; /* Estilo de la línea */
+        margin: 25px 0; /* Margen superior e inferior opcional */
+      }
+    
+      button {
+        background-color: 	#FFFFFF; /* Color de fondo */
+        color: #000000(0 65% 29% / 0.281); /* Color de texto */
+        padding: 10px 20px; /* Espaciado interior (arriba/abajo, izquierda/derecha) */
+        border-color: #07732D; /* Sin borde */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cursor de puntero al pasar el ratón */
+        margin-bottom: 10px;
+        overflow: hidden;
+      }
+      .button-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 65px;
+      }
+      
+    .image{
+        display: block;
+        margin: 0 auto;
+        width:75px; /* Ancho deseado */
+        height: 75px; /* Altura automática para mantener la proporción original */
+    }
+    /* Altura automática para mantener la proporción original */
+      .image1{
+        display: block;
+        margin: 0 auto;
+        width:85px; /* Ancho deseado */
+        height: 80px; /* Altura automática para mantener la proporción original */
+      }
+    
+  
+    
+   
+    
+    
+  
+   
+    
+    
+    
+   
+    
+    
+    
+    
