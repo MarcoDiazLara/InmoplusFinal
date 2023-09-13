@@ -1,11 +1,12 @@
 .contenedorbase {
-    width      : 80vh;
+    width      : 40%;
     height     : 93vh;
+    margin-left: 30%;
     border       : 1px solid #A4A4A4;
     border-radius: 8px;
     box-shadow   : 0 0 10px rgba(0, 0, 0, 0.2);
     margin-top   : 1%;
-    
+    justify-content: center;
 
 }
 
@@ -25,9 +26,8 @@
 
 }
 
-.contenedortexto h4 {
+.contenedortexto h3 {
     margin-left: 5%;
-    margin-top : 3%;
     font-size: 18px;
    
 }
@@ -153,7 +153,6 @@ input:checked+.slider:before {
     justify-content: center;
 
 
-
 }
 
 .BotonLast button:hover {
@@ -163,9 +162,10 @@ input:checked+.slider:before {
 
 .contenedorLineas {
     width      : 90%;
-    height     : 25px;
+    height     : 15px;
+    margin-left: 5%;
     margin-top : 10px;
-    margin-left: 10%;
+ 
 }
 
 .contenedorlinea1 {
@@ -195,9 +195,11 @@ input:checked+.slider:before {
 }
 
 .contenedorlogin {
-    width     : 100%;
+    width     : 90%;
     height    : 50px;
+    margin-left: 5%;
     margin-top : 20px;
+
 }
 
 .contenedorgoogle {
