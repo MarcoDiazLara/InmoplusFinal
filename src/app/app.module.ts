@@ -16,6 +16,7 @@ import { DescargaComponent } from './components/descarga/descarga.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
+import { ConocenosComponent } from './components/conocenos/conocenos.component';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { RegistroComponent } from './components/registro/registro.component';
     Pagina2Component,
     Pagina3Component,
     NavmenuComponent,
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent
     
   ],
   imports: [
