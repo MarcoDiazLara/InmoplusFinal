@@ -8,11 +8,16 @@ import { ResultSearchComponent } from '../result-search/result-search.component'
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
-  constructor(private router: Router){}
-  result(){
-    this.router.navigate(['/result-search']);
 
+  constructor(private router: Router){}
+
+  result(){ 
+    this.router.navigate(['/result-search']);  
+  
   }
+
+
+
 
 }
 

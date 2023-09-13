@@ -5,6 +5,7 @@ import { Pagina1Component } from './components/pagina1/pagina1.component';
 import { Pagina2Component } from './components/pagina2/pagina2.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { RegistroComponent } from './components/registro/registro.component';
+import { ResultSearchComponent } from './components/result-search/result-search.component';
 
 //puto dani
 //Rutas de navegacion 
@@ -17,6 +18,8 @@ const routes: Routes = [
 {path:'pagina2',component: Pagina2Component},
 {path:'registro',component: RegistroComponent },
 {path:'**', component:PagenotfoundComponent},
+{path:'result-search', component:ResultSearchComponent},
+
 
 
 ];
