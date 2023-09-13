@@ -6,7 +6,7 @@ import { Pagina2Component } from './components/pagina2/pagina2.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { RegistroComponent } from './components/registro/registro.component';
 
-
+//puto dani
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
