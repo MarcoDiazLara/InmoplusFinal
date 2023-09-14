@@ -18,7 +18,7 @@ const routes: Routes = [
 {path:'pagina2',component: Pagina2Component},
 {path:'registro',component: RegistroComponent },
 {path:'**', component:PagenotfoundComponent},
-{path:'result-search', component:ResultSearchComponent},
+{path:'resultsearch', component:ResultSearchComponent},
 
 
 
