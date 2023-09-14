@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { ResultSearchComponent } from '../result-search/result-search.component';
 
 @Component({
   selector: 'app-search',

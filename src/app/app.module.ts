@@ -17,7 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
-import { ResultSearchComponent } from './components/result-search/result-search.component';
+import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
 
 
 @NgModule({
