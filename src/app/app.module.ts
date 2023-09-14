@@ -18,17 +18,15 @@ import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { ResultSearchComponent } from './components/result-search/result-search.component';
-<<<<<<< Updated upstream
+
 import { Formu1Component } from './components/formu1/formu1.component';
-<<<<<<< Updated upstream
-=======
-import { MenuUsuarioComponent } from './Components/menu-usuario/menu-usuario.component';
-import { StesProgressComponent } from './Components/stes-progress/stes-progress.component';
-import { EstatusComponent } from './Components/estatus/estatus.component';
->>>>>>> Stashed changes
-=======
-import { Formu2Component } from './Components/formu2/formu2.component';
->>>>>>> Stashed changes
+
+import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.component';
+import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
+import { EstatusComponent } from './components/estatus/estatus.component';
+
+import { Formu2Component } from './components/formu2/formu2.component';
+
 
 
 @NgModule({
@@ -39,16 +37,13 @@ import { Formu2Component } from './Components/formu2/formu2.component';
     Pagina2Component,
     Pagina3Component,
     NavmenuComponent,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component
-=======
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, MenuUsuarioComponent, StesProgressComponent, EstatusComponent
->>>>>>> Stashed changes
-=======
+    MenuUsuarioComponent,
+    EstatusComponent,
+    StesProgressComponent,
+
+
     PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component
->>>>>>> Stashed changes
-    
+
   ],
   imports: [
     BrowserModule,
