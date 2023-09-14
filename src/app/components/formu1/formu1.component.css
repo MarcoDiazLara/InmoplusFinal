@@ -1,6 +1,20 @@
+.movi{
+border:9px #07732D;
+margin-left: 800px;
+
+
+
+}
+
+
+
+
+
 .container {
     display: flex;
     align-items: left;
+    
+
   }
   
   .radio-tile-group {

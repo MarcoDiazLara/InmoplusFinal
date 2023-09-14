@@ -6,6 +6,7 @@ import { Pagina2Component } from './components/pagina2/pagina2.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ResultSearchComponent } from './components/result-search/result-search.component';
+import { Formu1Component } from './components/formu1/formu1.component';
 
 //puto dani
 //Rutas de navegacion 
@@ -17,6 +18,7 @@ const routes: Routes = [
 {path:'pagina1', component:Pagina1Component },
 {path:'pagina2',component: Pagina2Component},
 {path:'registro',component: RegistroComponent },
+{path:'formu1',component:   Formu1Component},
 {path:'**', component:PagenotfoundComponent},
 {path:'result-search', component:ResultSearchComponent},
 
