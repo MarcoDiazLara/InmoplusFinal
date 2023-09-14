@@ -1,3 +1,40 @@
+
 h1{
     color: blue;
 }
+
+.divider {
+    height: 20px; /* Altura de la línea */
+    background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
+    margin: 0; /* Margen cero para evitar espacios innecesarios */
+}
+
+.resultsearch{
+    margin-top: 40px;
+}
+
+.navbar{
+    margin-left: auto;
+    margin-right: 400px;
+}
+
+
+ .lupa{
+    background: url('https://api.iconify.design/iconamoon/search-fill.svg?color=%23044504') no-repeat center center / contain;
+    content: url('https://api.iconify.design/iconamoon/search-fill.svg?color=%23044504');
+    background-size: cover; /* Tamaño de la imagen */
+    background-position: center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición */
+    width: 27px;
+    height: 27px;
+ }
+ .buscador{
+    display: flex;
+ }
+ .form-control{
+    width: 300px;
+ }
+
+ .list-group{
+    margin-top: 100px;
+ }

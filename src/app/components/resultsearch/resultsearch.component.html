@@ -1,39 +1,74 @@
 <!--****************************************************-->
 <!--****************************************************-->
 <!--****************************************************-->
-<!-- esta es la pagina de los resultados de la busqueda -->
+<!-- Esta es la pagina de los resultados de la busqueda -->
 <!--****************************************************-->
 <!--****************************************************-->
 <!--****************************************************-->
 
 <link rel="stylesheet" href="resultsearch.component.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<app-navmenu></app-navmenu>
+<div class="divider"></div>
+ 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<div class="container mt-4">
-    <h2>Resultados de Búsqueda</h2>
+<div class="resultsearch">
+      <!-- barra de busqueda y filtros -->
+        <nav class="navbar">
+            <!-- <div class="container-fluid"> -->
+              <!-- <form class="d-flex" role="search"> -->
+                <div class="buscador">
+                <input class="form-control" type="search" placeholder="Ingresa tu ciudad o Localidad" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">
+                    <img class="lupa">
+                </button>
+                </div>
+                
+                <button class="btn btn-outline-success me-2" type="button">Precio</button>
+                <button class="btn btn-outline-success me-2" type="button">Tipo de Oferta</button>
+                <button class="btn btn-outline-success me-2" type="button">Inmueble</button>
+                <button class="btn btn-outline-success me-2" type="button">Recamaras</button>
+                <button class="btn btn-outline-success me-2" type="button">Filtrar</button>
+              <!-- </form> -->
+            <!-- </div> -->
+          </nav>
+
+
+
+      
+
   
-    <!-- Barra de búsqueda (opcional) -->
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar..." aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
-      </div>
-    </div>
-  
+
+
+
+
+
     <!-- Lista de Resultados -->
     <ul class="list-group">
       <li class="list-group-item">
         <h4>Resultado 1</h4>
-        <p>Descripción del resultado 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Aqui va el resultado 1 xdxdxd.</p>
       </li>
       <li class="list-group-item">
         <h4>Resultado 2</h4>
-        <p>Descripción del resultado 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Aqui va el resultado 2 xdxdxd.</p>
       </li>
       <li class="list-group-item">
         <h4>Resultado 3</h4>
-        <p>Descripción del resultado 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Aqui va el resultado 3 xdxdxd.</p>
       </li>
     </ul>
+
+
+
+
+
   </div>
+
+
+
+
+  <app-footer></app-footer>
 
 
