@@ -36,7 +36,7 @@ export class NavmenuComponent
 
    }
    publi(){
-    this.router.navigate(['/formu1']);
+    this.router.navigate(['']);
 
 
  }

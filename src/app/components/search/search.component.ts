@@ -10,7 +10,7 @@ export class SearchComponent {
 
   constructor(private router: Router){}
 
-  result(){ 
+  Buscar(){ 
     this.router.navigate(['/resultsearch']);  
   
   }

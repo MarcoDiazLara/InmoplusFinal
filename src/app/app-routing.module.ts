@@ -7,7 +7,7 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import { RegistroComponent } from './components/registro/registro.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
 
-//puto dani
+import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
@@ -17,8 +17,13 @@ const routes: Routes = [
 {path:'pagina1', component:Pagina1Component },
 {path:'pagina2',component: Pagina2Component},
 {path:'registro',component: RegistroComponent },
-{path:'**', component:PagenotfoundComponent},
+
 {path:'resultsearch', component:ResultSearchComponent},
+{path:'paginaconocenos',component:PaginaconocenosComponent},
+
+
+{path:'**', component:PagenotfoundComponent},
+
 
 
 
