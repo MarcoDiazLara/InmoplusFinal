@@ -19,6 +19,15 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
 
+import { Formu1Component } from './components/formu1/formu1.component';
+
+import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.component';
+import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
+import { EstatusComponent } from './components/estatus/estatus.component';
+
+import { Formu2Component } from './components/formu2/formu2.component';
+
+
 
 @NgModule({
   declarations: [
@@ -28,8 +37,13 @@ import { ResultSearchComponent } from './components/resultsearch/resultsearch.co
     Pagina2Component,
     Pagina3Component,
     NavmenuComponent,
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent
-    
+    MenuUsuarioComponent,
+    EstatusComponent,
+    StesProgressComponent,
+
+
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component
+
   ],
   imports: [
     BrowserModule,

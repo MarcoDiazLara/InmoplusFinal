@@ -34,8 +34,12 @@ export class NavmenuComponent
       this.router.navigate(['/pagina2']);
 
 
-
    }
+   publi(){
+    this.router.navigate(['/formu1']);
+
+
+ }
 
 
 
