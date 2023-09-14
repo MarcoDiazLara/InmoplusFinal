@@ -1,4 +1,10 @@
-/* menu.component.css (o tu archivo de estilos) */
+
+.linea-horizontal{
+    border-top: 19px solid #07732D; /* Estilo de la línea */
+    margin: 30px 5; /* Margen superior e inferior opcional */
+  }
+
+  /* menu.component.css (o tu archivo de estilos) */
 /* tu-componente.component.css (o .scss) */
 .container {
     display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
