@@ -18,6 +18,7 @@ import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { ResultSearchComponent } from './components/result-search/result-search.component';
+import { Formu1Component } from './components/formu1/formu1.component';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { ResultSearchComponent } from './components/result-search/result-search.
     Pagina2Component,
     Pagina3Component,
     NavmenuComponent,
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component
     
   ],
   imports: [
