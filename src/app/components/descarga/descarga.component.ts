@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-descarga',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./descarga.component.css']
 })
 export class DescargaComponent {
+
+  constructor(private router: Router){}
+
+  Descarga(){ 
+    this.router.navigate(['/paginadescarga']);  
+  
+  }
 
 }

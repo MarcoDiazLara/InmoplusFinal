@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pagina3',
@@ -6,9 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./pagina3.component.css']
 })
 export class Pagina3Component {
-  handleButtonClick() {
-    // Agrega la lógica que deseas ejecutar cuando se haga clic en el botón.
-    console.log('Botón clicado');
+  constructor(private router: Router){}
+
+  Bus(){ 
+    this.router.navigate(['/resultsearch']);  
+  
   }
 
 
