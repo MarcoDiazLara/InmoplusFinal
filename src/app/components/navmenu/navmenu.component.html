@@ -28,7 +28,56 @@
       <!-- Agrega más opciones de menú si es necesario -->
     </ul>
     <div class="MovimientoBoton">
-      <button class="button" (click)="publi()">Ofrecer</button>
+      <div class="container">
+        <button  class="button" (click)="mostrarVentana()">Ofrecer</button>
+      
+        <!-- Ventana flotante -->
+        <div class="ventana" [ngClass]="{'visible': ventanaVisible}">
+          <div class="contenido">
+            <button  class="button4"(click)="cerrarVentana()">
+              <span class="X"></span>
+            <span class="Y"></span>
+             <div class="close">Close</div>
+            </button>
+            <br>
+            <br>	
+            <br>
+            <h1> ¿Con qué descripción te identificas? </h1> 
+            <br>
+            <br>	
+            <br>
+            <h2> Elige la opción que mejor se adapte a tus gustos. </h2> 
+            <br>
+            <br>	
+            <br>
+            <br>	 
+            <br>	
+
+            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <img  class="ima" src="assets/Casa3.png">&nbsp;
+    
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img   (click) = "Regis()" class="ima" src="assets/arquitecto.png">
+               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img   (click) = "Regis()" class="ima" src="assets/agente.png">
+                <br>
+                <br>
+                <button (click) = "Regis()"  class="butto" >Particular <br> 
+                  Dueño Directo</button>
+                
+                    
+                    
+                
+                
+                        <button   (click) = "Regis()"  class="butto">Particular<br> Dueño Directo</button>
+                    
+                    
+              
+              
+                
+                    <button (click) = "Regis()"  class="butto" >Constructora <br> Desarrolladora</button>
+                
+          </div>
+        </div>
+      </div>
+     
 
 
     </div>
@@ -40,6 +89,9 @@
       <div class="boton2">
       <button class="butto"  (click)="navegacion()" >Ingresar</button>
       </div> 
+
+
+    
       
  
   

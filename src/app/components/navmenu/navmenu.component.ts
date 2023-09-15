@@ -28,6 +28,15 @@ export class NavmenuComponent
 
 
 
+  ventanaVisible = false;
+
+  mostrarVentana() {
+    this.ventanaVisible = true;
+  }
+
+  cerrarVentana() {
+    this.ventanaVisible = false;
+  }
 
 
    navegacion(){
@@ -35,11 +44,10 @@ export class NavmenuComponent
 
 
    }
-   publi(){
-    this.router.navigate(['/perfilesdeofrecer']);
-
-
+   Regis(){
+    this.router.navigate(['/registro']);
  }
+  
 
 
 

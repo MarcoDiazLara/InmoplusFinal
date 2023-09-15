@@ -27,8 +27,8 @@ import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.com
 import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
 import { EstatusComponent } from './components/estatus/estatus.component';
 import { Formu2Component } from './components/formu2/formu2.component';
-import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
-import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
+
+
 
 
 
@@ -48,7 +48,7 @@ import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrece
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent, PerfilesdeofrecerComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, 
 
   ],
   imports: [
