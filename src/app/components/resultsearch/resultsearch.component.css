@@ -5,7 +5,15 @@
   }
 
 h1{
+
     color: blue;
+}
+.resultsearch h2{
+    color: #044504;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
 }
 
 .divider {
@@ -33,6 +41,26 @@ h1{
     width: 27px;
     height: 27px;
  }
+ .arrow1{
+    background: url('https://api.iconify.design/iconamoon/arrow-up-2-fill.svg?color=%23044504&rotate=180deg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/iconamoon/arrow-up-2-fill.svg?color=%23044504&rotate=180deg');
+    background-size: cover; /* Tamaño de la imagen */
+    background-position: center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición */
+    width: 20px;
+    height: 20px;
+ }
+.filter{
+    background: url('https://api.iconify.design/icon-park-twotone/filter.svg?color=%23044504') no-repeat center center / contain;
+    content: url('https://api.iconify.design/icon-park-twotone/filter.svg?color=%23044504');
+    background-size: cover; /* Tamaño de la imagen */
+    background-position: center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición */
+    width: 20px;
+    height: 20px;
+ }
+
+
  .buscador{
     display: flex;
  }
