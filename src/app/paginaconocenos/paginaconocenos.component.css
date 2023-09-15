@@ -16,6 +16,7 @@
 
 .img-jumbotron {
     background-size: 100% 100%; 
+    /* background-image: url('assets/Banner-Cover.webp');  */
     height: 450px; 
     max-width:100%;
 }
