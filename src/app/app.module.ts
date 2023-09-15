@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { Pagina1Component } from './components/pagina1/pagina1.component';
@@ -52,7 +54,7 @@ import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrece
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule
+    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
