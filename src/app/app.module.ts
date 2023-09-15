@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { Pagina1Component } from './components/pagina1/pagina1.component';
@@ -25,8 +27,8 @@ import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.com
 import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
 import { EstatusComponent } from './components/estatus/estatus.component';
 import { Formu2Component } from './components/formu2/formu2.component';
-import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
-import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
+
+
 
 
 
@@ -46,13 +48,13 @@ import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrece
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent, PerfilesdeofrecerComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule
+    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

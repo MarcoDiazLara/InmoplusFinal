@@ -1,103 +1,77 @@
-const express = require('express')
-const mysql = require('mysql')
-const bodyParser = require('body-parser')
+const mysql = require('mysql');
+const express = require('express');
+const session = require('express-session');
+const path = require('path');
+const cors = require('cors');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
-const app = express()
+const connection = mysql.createConnection({
+	host     : 'localhost',
+	user     : 'root',
+	password : '',
+	database : 'inmoplus2'
+});
 
-app.use(function(req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', '*');
-    res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next()
-})
+const app = express();
 
-app.use(bodyParser.json())
+app.use(cors());
 
-const PUERTO = 3000
+app.use(session({
+	secret: 'secret',
+	resave: true,
+	saveUninitialized: true
+}));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'static')));
 
-const conexion = mysql.createConnection(
-    {
-        host:'localhost',
-        database:'inmoplus2',
-        user:'root',
-        password:''
-    }
-)
+// http://localhost:3000/
+app.get('/', function(request, response) {
+	// Render login template
+	response.sendFile(path.join(__dirname + '/src/app/login/login.component.html'));
+});
 
-app.listen(PUERTO, () => {
-    console.log(`Servidor corriendo en el puerto ${PUERTO}`);
-})
+// http://localhost:3000/auth
+app.post('/auth', function(request, response) {
+	// Capture the input fields
+	let username = request.body.username;
+	let password = request.body.password;
+	// Ensure the input fields exists and are not empty
+	if (username && password) {
+		// Execute SQL query that'll select the account from the database based on the specified username and password
+		connection.query('SELECT * FROM usuario WHERE Nombre_Usuario = ? AND Password = ?', [username, password], function(error, results, fields) {
+			// If there is an issue with the query, output the error
+			if (error) throw error;
+			// If the account exists
+			if (results.length > 0) {
+				// Authenticate the user
+				request.session.loggedin = true;
+				request.session.username = username;
+				// Redirect to home page
+               
+				//response.redirect('/home');
+			} else {
+				response.send('Usuario y/o Contraseña Incorrecta');
+			}			
+			response.end();
+		});
+	} else {
+		response.send('Por favor ingresa Usuario y Contraseña!');
+		response.end();
+	}
+});
 
-conexion.connect(error => {
-    if(error) throw error
-    console.log('Conexión exitosa a la base de datos');
-})
+// http://localhost:3000/home
+app.get('/home', function(request, response) {
+	// If the user is loggedin
+	if (request.session.loggedin) {
+		// Output username
+		response.send('Te has logueado satisfactoriamente:, ' + request.session.username + '!');
+	} else {
+		// Not logged in
+		response.send('¡Inicia sesión para ver esta página!');
+	}
+	response.end();
+});
 
-app.get('/', (req, res) => {
-    res.send('API')
-})
-
-app.get('/usuarios', (req, res) => {
-    const query = `SELECT * FROM usuarios;`
-    conexion.query(query, (error, resultado) => {
-        if(error) return console.error(error.message)
-
-        if(resultado.length > 0) {
-            res.json(resultado)
-        } else {
-            res.json(`No hay registros`)
-        }
-    })
-})
-
-app.get('/usuarios/:id', (req, res) => {
-    const { id } = req.params
-
-    const query = `SELECT * FROM usuarios WHERE id_usuario=${id};`
-    conexion.query(query, (error, resultado) => {
-        if(error) return console.error(error.message)
-
-        if(resultado.length > 0) {
-            res.json(resultado)
-        } else {
-            res.json(`No hay registros`)
-        }
-    })
-})
-
-app.post('/usuarios/agregar', (req, res) => {
-    const usuario = {
-        nombre: req.body.nombre,
-        email: req.body.email
-    }
-
-    const query = `INSERT INTO usuarios SET ?`
-    conexion.query(query, usuario, (error) => {
-        if(error) return console.error(error.message)
-
-        res.json(`Se insertó correctamente el usuario`)
-    })
-})
-
-app.put('/usuarios/actualizar/:id', (req, res) => {
-    const { id } = req.params
-    const { nombre, email } = req.body
-
-    const query = `UPDATE usuarios SET nombre='${nombre}', email='${email}' WHERE id_usuario='${id}';`
-    conexion.query(query, (error) => {
-        if(error) return console.error(error.message)
-
-        res.json(`Se actualizó correctamente el usuario`)
-    })
-})
-
-app.delete('/usuarios/borrar/:id', (req, res) => {
-    const { id } = req.params
-
-    const query = `DELETE FROM usuarios WHERE id_usuario=${id};`
-    conexion.query(query, (error) => {
-        if(error) console.error(error.message)
-
-        res.json(`Se eliminó correctamente el usuario`)
-    })
-})
+app.listen(3000);

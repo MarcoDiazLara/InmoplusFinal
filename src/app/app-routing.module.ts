@@ -6,9 +6,6 @@ import { Pagina2Component } from './components/pagina2/pagina2.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
-import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
-import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
-
 import { Formu1Component } from './components/formu1/formu1.component';
 //Rutas de navegacion 
 const routes: Routes = [
@@ -19,9 +16,9 @@ const routes: Routes = [
 {path:'pagina1', component:Pagina1Component },
 {path:'pagina2',component: Pagina2Component},
 {path:'registro',component: RegistroComponent },
-{path:'perfilesdeofrecer',component:PerfilesdeofrecerComponent},
+
 {path:'resultsearch', component:ResultSearchComponent},
-{path:'paginaconocenos',component:PaginaconocenosComponent},
+
 
 {path:'formu1',component:Formu1Component },
 {path:'**', component:PagenotfoundComponent},
