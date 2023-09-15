@@ -39,7 +39,7 @@ app.post('/auth', function(request, response) {
 	// Ensure the input fields exists and are not empty
 	if (username && password) {
 		// Execute SQL query that'll select the account from the database based on the specified username and password
-		connection.query('SELECT * FROM usuario WHERE Nombre_Usuario = ? AND Password = ?', [username, password], function(error, results, fields) {
+		connection.query('SELECT * FROM usuario WHERE Correo_Electronico = ? AND Password = ?', [username, password], function(error, results, fields) {
 			// If there is an issue with the query, output the error
 			if (error) throw error;
 			// If the account exists
@@ -73,5 +73,20 @@ app.get('/home', function(request, response) {
 	}
 	response.end();
 });
+
+app.post('/usuarios/agregar', function(request, response) {
+    const usuario = {
+        Correo_Electronico: request.body.Correo_Electronico,
+        Password: request.body.Password
+    }
+
+    const query = `INSERT INTO usuario SET ?`
+    connection.query(query, usuario, (error) => {
+        if(error) return console.error(error.message)
+
+        response.json(`Se insertó correctamente el usuario`)
+    })
+})
+
 
 app.listen(3000);

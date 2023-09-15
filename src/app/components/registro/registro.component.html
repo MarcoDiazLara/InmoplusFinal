@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="/registro.component.css">
+
 
 <script>
   function validarContraseñas() {
@@ -32,13 +32,13 @@
                   <option value="opcion3">Empresa Inmobiliaria</option>
               </select>
               <h4 class="inputs">Correo electrónico:</h4>
-              <input class="get-info" type="email" placeholder="Ejemplo@correo.com">
+              <input [(ngModel)]="registro.Correo_Electronico" class="get-info" type="email" placeholder="Ejemplo@correo.com">
 
               <h4 class="inputs">Contraseña</h4>
-              <input class="get-info" type="password">
+              <input  [(ngModel)]="registro.Password" class="get-info" type="password">
               <h4 class="inputs">Repite la contraseña</h4>
               <input class="get-info" type="password" style="margin-bottom: 30px;">
-              <img  (click) = "formu1()" class="img-registro" src="assets/Registrarme.png" alt="Botón de registro">
+              <img  (click) = "Registrar()" class="img-registro" src="assets/Registrarme.png" alt="Botón de registro">
               <h4>REGISTRARME</h4>
 
 </div>
