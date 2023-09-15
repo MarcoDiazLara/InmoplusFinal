@@ -26,6 +26,8 @@ import { StesProgressComponent } from './components/stes-progress/stes-progress.
 import { EstatusComponent } from './components/estatus/estatus.component';
 import { Formu2Component } from './components/formu2/formu2.component';
 import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
+import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
+import { PaginaDescargaComponent } from './pagina-descarga/pagina-descarga.component';
 
 
 
@@ -44,7 +46,7 @@ import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.comp
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent, PerfilesdeofrecerComponent, PaginaDescargaComponent,
 
   ],
   imports: [

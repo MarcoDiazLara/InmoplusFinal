@@ -36,7 +36,7 @@ export class NavmenuComponent
 
    }
    publi(){
-    this.router.navigate(['']);
+    this.router.navigate(['/perfilesdeofrecer']);
 
 
  }
