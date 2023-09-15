@@ -1,13 +1,14 @@
 
 <app-menu-usuario></app-menu-usuario>
+<div class="main-container">
+    <div class="sub_container">
+      <app-stes-progress></app-stes-progress>
 
 <app-estatus></app-estatus>
-<app-stes-progress></app-stes-progress>
-
 <div class="movi">
-
+<h1>!Que tal {{name}}</h1>
 <form>
-    <h1>¿Qué vas a realizar?</h1>
+    <h2>¿Qué vas a realizar?</h2>
 
     <h4>Tipo de operación</h4>
     <div class="container">
@@ -34,15 +35,24 @@
       <br>
       <br>
 <h4>Tipo de inmmueble</h4>
-    <select name="language" img>
+<div class="container_list">
+    <select name="language">
         <option value="es">Casa</option>
         <option value="en">Departamento</option>
+        <option value="en">Rancho</option>
+        <option value="en">Bodega comercial</option>
+        <option value="en">Terreno</option>
+        <option value="en">Duplex</option>
+        <option value="en">Oficinas</option>
+        <option value="en">Edificio</option>
+        <option value="en">Nave industrial</option>
     </select>
+  </div>
 
     <button class="butto">Continuar</button>
   </form>
  
-
 </div>
-
+</div>
+</div>
 <app-footer></app-footer>

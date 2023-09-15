@@ -1,28 +1,72 @@
-.movi{
-border:9px #07732D;
-margin-left: 800px;
-
-
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
-
-
 .container {
     display: flex;
-    align-items: left;
-    
-
-  }
-  
-  .radio-tile-group {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
+
+  app-estatus {
+    width: 100%;
+    float: left;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub_container {
+    width: 85%;
+    border: 1px solid #eee;
+    overflow: hidden;
+  }
+
+  app-estatus {
+    width: 30%;
+    float: left;
+  }
   
+  .movi {
+    width: 70%;
+    float: left;
+  }
+
+  .movi form {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .movi h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .movi h2 {
+    font-size: 30px;
+  }
+
+  .movi h2, h4{
+    text-align: center;
+  }
+
+  .movi h4 {
+    font-size: 20px;
+  }
+
+
+  .radio-tile-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .radio-tile-group .input-container {
     position: relative;
     height: 20px;
@@ -82,7 +126,16 @@ margin-left: 800px;
     background-color: #409A42 ;
   }
 
+  .radio-tile-label {
+    padding: 10px;
+  }
+
+  .container_list {
+    text-align: center;
+  }
+
   select {
+    display: inline-block;
     appearance: none;
     padding: 15px 20px;
     -webkit-border-radius: 50px;
@@ -98,11 +151,17 @@ select:focus {
     outline: none;
 }
 
+select:hover {
+  cursor: pointer;
+}
+
 .butto {
+  width: 185px;
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     text-align: center;
     font-weight: bold;
     padding: 0.7em 2em;
@@ -114,8 +173,9 @@ select:focus {
     text-decoration: none;
     transition: 0.3s ease all;
     z-index: 1;
-    border-radius: 3px; /* Agrega esquinas redondeadas */
-    margin-left: 60px;
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    margin-top: 40px;
+    padding: 20px;
   }
   
  .butto:before {
@@ -129,6 +189,10 @@ select:focus {
     content: '';
     background-color: #07732D;
     z-index: -1;
+  }
+
+  .butto:hover {
+    cursor: pointer;
   }
   
   .butto:hover, .butto:focus {
