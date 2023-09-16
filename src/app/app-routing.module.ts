@@ -7,6 +7,7 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import { RegistroComponent } from './components/registro/registro.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
 import { Formu1Component } from './components/formu1/formu1.component';
+import { Formu2Component } from './components/formu2/formu2.component';
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
@@ -21,6 +22,8 @@ const routes: Routes = [
 
 
 {path:'formu1',component:Formu1Component },
+
+{path:'formu2',component:Formu2Component},
 {path:'**', component:PagenotfoundComponent},
 
 

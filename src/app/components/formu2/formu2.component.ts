@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./formu2.component.css']
 })
 export class Formu2Component {
+  name: string = 'Pedro';
 
 }
