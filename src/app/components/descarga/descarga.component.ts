@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./descarga.component.css']
 })
 export class DescargaComponent {
+  constructor(private router: Router){}
+  Des(){ 
+    this.router.navigate(['/descarga1']);  
+  
+  }
+
+
+
 
   
 }

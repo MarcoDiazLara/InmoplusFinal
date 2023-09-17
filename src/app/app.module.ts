@@ -28,6 +28,8 @@ import { StesProgressComponent } from './components/stes-progress/stes-progress.
 import { EstatusComponent } from './components/estatus/estatus.component';
 import { Formu2Component } from './components/formu2/formu2.component';
 import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes.component';
+import { Descarga1Component } from './components/descarga1/descarga1.component';
+
 
 
 
@@ -49,7 +51,7 @@ import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, 
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, 
 
   ],
   imports: [
