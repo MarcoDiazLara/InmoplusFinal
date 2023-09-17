@@ -8,8 +8,9 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
 import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
 import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
-
 import { Formu1Component } from './components/formu1/formu1.component';
+
+
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
@@ -22,7 +23,6 @@ const routes: Routes = [
 {path:'perfilesdeofrecer',component:PerfilesdeofrecerComponent},
 {path:'resultsearch', component:ResultSearchComponent},
 {path:'paginaconocenos',component:PaginaconocenosComponent},
-
 {path:'formu1',component:Formu1Component },
 {path:'**', component:PagenotfoundComponent},
 
