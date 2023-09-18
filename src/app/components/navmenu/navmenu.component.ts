@@ -48,6 +48,9 @@ export class NavmenuComponent
     this.router.navigate(['/registro']);
  }
   
+ formulario(){
+  this.router.navigate(['/formu1']);
+}
 
 
 
