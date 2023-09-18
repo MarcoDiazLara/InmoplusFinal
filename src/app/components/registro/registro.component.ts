@@ -21,7 +21,7 @@ export class RegistroComponent {
 
   
   Registrar(){
-    this.httpclient.post('http://localhost:3000/usuarios/agregar',this.registro).subscribe(()=> {this.router.navigate(["/resultsearch"])});
+    this.httpclient.post('http://localhost:3000/usuarios/agregar',this.registro).subscribe(()=> {this.router.navigate(["/pagina2"])});
   }
 
 

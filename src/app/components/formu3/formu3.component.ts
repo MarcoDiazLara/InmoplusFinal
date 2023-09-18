@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-formu3',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./formu3.component.css']
 })
 export class Formu3Component {
-
+  constructor(private router: Router){}
+  Subir(){ 
+    this.router.navigate(['/subirimagenes']);  
+  
+  }
 }
