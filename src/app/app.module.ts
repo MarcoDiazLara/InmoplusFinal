@@ -30,6 +30,7 @@ import { Formu2Component } from './components/formu2/formu2.component';
 import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes.component';
 import { Descarga1Component } from './components/descarga1/descarga1.component';
 import { Formu3Component } from './components/formu3/formu3.component';
+import { Formu4Component } from './components/formu4/formu4.component';
 
 
 
@@ -52,7 +53,7 @@ import { Formu3Component } from './components/formu3/formu3.component';
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, 
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, Formu4Component, 
 
   ],
   imports: [
