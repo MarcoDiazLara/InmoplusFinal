@@ -102,13 +102,12 @@ h1{
     margin-right: 0;
     padding: 0;
     position: absolute;
+    border-radius: 5px;
     background-color: #fff; /* Fondo de la lista */
     border: 1px solid #ccc; /* Borde de la lista */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
-    top: 100%; /* Posición debajo del botón */
-    margin-left: 395px;
-    margin-top: -10px;
+    position: absolute; /* Establece el posicionamiento absoluto */
   }
   
   /* Estilo para los elementos de la lista */
@@ -129,13 +128,12 @@ h1{
     margin-right: 0;
     padding: 0;
     position: absolute;
+    border-radius: 5px;
     background-color: #fff; /* Fondo de la lista */
     border: 1px solid #ccc; /* Borde de la lista */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
-    top: 100%; /* Posición debajo del botón */
-    margin-top: -10px;
-    margin-left: 540px;
+    position: absolute; /* Establece el posicionamiento absoluto */
   }
   
   /* Estilo para los elementos de la lista */
@@ -156,13 +154,12 @@ h1{
     margin-right: 0;
     padding: 0;
     position: absolute;
+    border-radius: 5px;
     background-color: #fff; /* Fondo de la lista */
     border: 1px solid #ccc; /* Borde de la lista */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
-    top: 100%; /* Posición debajo del botón */
-    margin-top: -10px;
-    margin-left: 725px;
+    position: absolute; /* Establece el posicionamiento absoluto */
   }
   
   /* Estilo para los elementos de la lista */
@@ -185,13 +182,12 @@ h1{
     margin-right: 0;
     padding: 0;
     position: absolute;
+    border-radius: 5px;
     background-color: #fff; /* Fondo de la lista */
     border: 1px solid #ccc; /* Borde de la lista */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
-    top: 100%; /* Posición debajo del botón */
-    margin-top: -10px;
-    margin-left: 900px;
+    position: absolute; /* Establece el posicionamiento absoluto */
   }
   
   /* Estilo para los elementos de la lista */
@@ -212,13 +208,13 @@ h1{
     margin-right: 0;
     padding: 0;
     position: absolute;
+    border-radius: 5px;
     background-color: #fff; /* Fondo de la lista */
     border: 1px solid #ccc; /* Borde de la lista */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
-    top: 100%; /* Posición debajo del botón */
-    margin-top: -10px;
-    margin-left: 0px;
+    position: absolute; /* Establece el posicionamiento absoluto */
+    margin-top: 40px;
   }
   
   /* Estilo para los elementos de la lista */
@@ -232,6 +228,26 @@ h1{
     background-color: #f0f0f0; /* Cambio de color al pasar el mouse sobre elementos de lista */
   }
   
-  
+
+
+
+
+  /* Estilo personalizado para los resultados de búsqueda */
+  .producto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .precio {
+    font-size: 24px;
+    color: #007bff;
+  }
+
+  .caracteristicas {
+    margin-top: 10px;
+  }
 
   
