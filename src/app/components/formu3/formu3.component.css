@@ -1,0 +1,127 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display        : flex;
+    justify-content: center;
+}
+
+app-estatus {
+    width: 100%;
+    float: left;
+}
+
+.main-container {
+    display        : flex;
+    justify-content: center;
+}
+
+.sub_container {
+    width   : 85%;
+    border  : 1px solid #eee;
+    overflow: hidden;
+}
+
+app-estatus {
+    width: 30%;
+    float: left;
+}
+
+.movi {
+    width: 70%;
+    float: left;
+}
+
+.movi form {
+    width     : 80%;
+    height: 150vh;
+    border    : 1px solid #ccc;
+    padding   : 50px;
+    box-sizing: border-box;
+    margin    : 0 auto;
+
+}
+
+.movi h1 {
+    width     : 100%;
+    text-align: center;
+    font-size : 40px;
+}
+
+.movi h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.movi ,
+h4 {
+    text-align: left;
+    
+}
+
+.movi h4 {
+    font-size: 20px;
+
+}
+
+.movi h3 {
+font-size: 17px;
+}
+
+
+.radio-tile-group {
+    width  : 100%;
+    display: flex;
+
+}
+
+
+input {
+    width : 50px;
+    height: 40px;
+
+}
+
+table{
+    width: 450px;
+}
+
+.tamaño{
+    width: 100%;
+    height: 34px;
+}
+
+.tamañoradio{
+    width: 41px;
+    height: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
