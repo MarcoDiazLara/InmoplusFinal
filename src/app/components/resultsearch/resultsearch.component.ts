@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 
 
 @Component({
@@ -10,10 +10,28 @@ import { Component } from '@angular/core';
 
 export class ResultSearchComponent {
 // Variables para controlar la visibilidad de las listas
-showPrecio = false;
-showToferta = false;
-showInmueble = false;
-showRecamaras = false;
+public showPrecio: boolean = false;
+public showToferta: boolean = false;
+public showInmueble: boolean = false;
+public showRecamaras: boolean = false;
+public showSearch: boolean = false;
+
+
+constructor(private el: ElementRef) {}
+
+@HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    // Verifica si el clic no fue dentro del botón de Precio ni dentro de la lista de Precio
+    if (!this.el.nativeElement.querySelector('.navbar').contains(event.target) &&
+        !this.el.nativeElement.querySelector('.dropdown-precio, .dropdown-Toferta, .dropdown-inmueble, .dropdown-Recamaras, .dropdown-search' ).contains(event.target)) {
+      // Si se hizo clic fuera del botón y fuera de la lista de Precio, oculta la lista
+      this.showPrecio = false;
+      this.showToferta = false;
+      this.showInmueble = false;
+      this.showRecamaras = false;
+      this.showSearch = false;
+    }
+  }
 
 // Función para mostrar/ocultar la lista de Precio
 togglePrecio() {
@@ -22,6 +40,7 @@ togglePrecio() {
   this.showToferta = false;
   this.showInmueble = false;
   this.showRecamaras = false;
+  this.showSearch = false;
 }
 
 // Función para mostrar/ocultar la lista de Tipo de Oferta
@@ -31,6 +50,7 @@ toggleToferta() {
   this.showPrecio = false;
   this.showInmueble = false;
   this.showRecamaras = false;
+  this.showSearch = false;
 }
 
 // Función para mostrar/ocultar la lista de Inmueble
@@ -40,6 +60,7 @@ toggleInmueble() {
   this.showPrecio = false;
   this.showToferta = false;
   this.showRecamaras = false;
+  this.showSearch = false;
 }
 
 // Función para mostrar/ocultar la lista de Recamaras
@@ -49,6 +70,17 @@ toggleRecamaras() {
   this.showPrecio = false;
   this.showToferta = false;
   this.showInmueble = false;
+  this.showSearch = false;
+}
+
+// Función para mostrar/ocultar la barra de resultados de escritura en busqueda
+toggleSearch() {
+  this.showSearch = !this.showSearch;
+  // Oculta las otras listas
+  this.showPrecio = false;
+  this.showToferta = false;
+  this.showInmueble = false;
+  this.showRecamaras = false;
 }
 
 
