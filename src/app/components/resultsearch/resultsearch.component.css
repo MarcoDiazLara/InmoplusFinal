@@ -72,3 +72,20 @@ h1{
  .list-group{
     margin-top: 100px;
  }
+
+
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+ /* Oculta los elemenotos desplegables por defecto */
+
+  /* Estilo para ocultar las listas por defecto */
+.dropdown-list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para mostrar las listas cuando el botón correspondiente está activo */
+  .active {
+    display: block;
+  }

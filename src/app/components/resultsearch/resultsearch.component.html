@@ -24,11 +24,36 @@
                     <img class="lupa">
                 </button>
                 </div>
-                
-                <button class="btn btn-outline-success me-2" type="button">Precio <img class="arrow1"></button>
-                <button class="btn btn-outline-success me-2" type="button">Tipo de Oferta <img class="arrow1"></button>
-                <button class="btn btn-outline-success me-2" type="button">Inmueble <img class="arrow1"></button>
-                <button class="btn btn-outline-success me-2" type="button">Recamaras <img class="arrow1"></button>
+
+                <button class="btn btn-outline-success me-2" type="button" (click)="togglePrecio()">Precio <img class="arrow1"></button>
+                  <ul *ngIf="showPrecio">
+                    <li><a>Opción 1</a></li>
+                    <li><a>Opción 2</a></li>
+                    <li><a>Opción 3</a></li>
+                  </ul>
+
+                <button class="btn btn-outline-success me-2" type="button" (click)="toggleToferta()">Tipo de Oferta <img class="arrow1"></button>
+                  <ul *ngIf="showToferta">
+                    <li><a>Renta</a></li>
+                    <li><a>Remate</a></li>
+                    <li><a>En construcción</a></li>
+                  </ul>
+
+                <button class="btn btn-outline-success me-2" type="button" (click)="toggleInmueble()">Inmueble <img class="arrow1"></button>
+                  <ul *ngIf="showInmueble">
+                    <li><a>Departamento</a></li>
+                    <li><a>Flex</a></li>
+                    <li><a>Rancho</a></li>
+                  </ul>
+
+                <button class="btn btn-outline-success me-2" type="button" (click)="toggleRecamaras()">Recamaras <img class="arrow1"></button>
+                  <ul *ngIf="showRecamaras">
+                    <li><a>Opción 1</a></li>
+                    <li><a>Opción 2</a></li>
+                    <li><a>Opción 3</a></li>
+                  </ul>
+
+
                 <button class="btn btn-outline-success me-2" type="button">Filtrar <img class="filter"></button>
               
           </nav>
@@ -64,7 +89,7 @@
       </li>
     </ul>
 
-    
+
   </div>
 
 
