@@ -1,14 +1,19 @@
+
+/*---------ESTILOS GLOBALES--------*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+/*--------ESTILOS AL MENU: li a*/
 #asidebar {
     width: 25%;
     height: 100vh;
     padding-top: 100px;
     box-shadow: 2px 0px 50px #eee;
+    float: left;
 }
 
 #list_menu {
@@ -18,9 +23,10 @@
     margin: 0 auto;
     list-style: none;
 }
-
-#list_menu li {
+#list_menu > li {
     padding: 15px;
+    box-sizing: border-box;
+    transition: 200ms ease-in-out;
 }
 
 #list_menu li a {
@@ -29,15 +35,57 @@
     font-size: 1.5em;
 }
 
-#submenu_config {
-    display: none;
+
+#list_menu > li:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
 }
 
-#list_menu li:hover {
+#list_menu > li:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#more {
+    padding: 4px;
+    border-radius: 40%;
+    background-color: #ccc;
+    border: none;
+}
+
+#more:hover {
+    cursor: pointer;
+}
+
+#more:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*----------ESTILOS AL SUBMENU CPNFIGURACION-----------*/
+
+#container_submenu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submenu_config {
+    display: none;
+    list-style: none;
+    width: 50%;
+}
+
+#submenu_config li {
+    padding: 15px;
+    transition: 200ms ease-in-out;
+}
+
+#submenu_config li:hover {
     background-color: #eee;
     cursor: pointer;
 }
 
-#list_menu li a:active {
-    color: green;
-}
+
+
+
+

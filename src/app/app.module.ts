@@ -28,6 +28,9 @@ import { Formu2Component } from './components/formu2/formu2.component';
 import { PaginaconocenosComponent } from './paginaconocenos/paginaconocenos.component';
 import { PerfilesdeofrecerComponent } from './perfilesdeofrecer/perfilesdeofrecer.component';
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
+import { MainsectionComponent } from './components/mainsection/mainsection.component';
+import { WidgetComponent } from './components/widget/widget.component';
+import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 
 
 
@@ -47,7 +50,7 @@ import { BarralateralmenuComponent } from './components/barralateralmenu/barrala
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent, PerfilesdeofrecerComponent, BarralateralmenuComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, PaginaconocenosComponent, PerfilesdeofrecerComponent, BarralateralmenuComponent, MainsectionComponent, WidgetComponent, Brokerpage1Component,
 
   ],
   imports: [
