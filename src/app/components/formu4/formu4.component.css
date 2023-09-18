@@ -1,3 +1,4 @@
+/*
 * {
     margin    : 0;
     padding   : 0;
@@ -37,7 +38,7 @@ app-estatus {
 
 .movi form {
     width     : 80%;
-    height    : 150vh;
+    height: 150vh;
     border    : 1px solid #ccc;
     padding   : 50px;
     box-sizing: border-box;
@@ -52,24 +53,23 @@ app-estatus {
 }
 
 .movi h2 {
-    font-size : 30px;
+    font-size: 30px;
     text-align: center;
 }
 
-.movi,
+.movi ,
 h4 {
     text-align: left;
-
+    
 }
 
 .movi h4 {
-    font-size  : 20px;
-    font-weight: 500;
+    font-size: 20px;
 
 }
 
 .movi h3 {
-    font-size: 17px;
+font-size: 17px;
 }
 
 
@@ -80,54 +80,54 @@ h4 {
 }
 
 
-
 input {
     width : 50px;
     height: 40px;
 
 }
 
-
-
-table {
+table{
     width: 450px;
 }
+ table th {
+    width: 20px;
+ }
+ table tr {
+    width: 20px;
+ }
 
-
-
-.tamaño {
-    width : 100%;
+.tamaño{
+    width: 100%;
     height: 34px;
 }
 
-.tamañoradio {
-    width : 41px;
+.tamañoradio{
+    width: 41px;
     height: 21px;
 }
-
-.ordenatext {
-    width: 151px;
-}
-
-.ordenatext1 {
-    width: 128px;
-}
-
-.ordenatext3 {
-    width: 153px;
-}
-
-.ordenatext4 {
-    width: 240px;
-}
-
-.ordenatext5 {
-    width: 204px;
-
-}
+*/
 
 
-select {
-    width : 60px;
-    height: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
