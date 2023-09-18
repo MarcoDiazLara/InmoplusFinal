@@ -9,14 +9,15 @@
 <link rel="stylesheet" href="resultsearch.component.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <app-navmenu></app-navmenu>
 <div class="divider"></div>
- 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 <div class="resultsearch">
+
      
-        <nav class="navbar">
+        <div class="navbar">
             
                 <div class="buscador">
                 <input class="form-control" type="search" placeholder="Ingresa tu ciudad o Localidad" aria-label="Buscar">
@@ -24,13 +25,14 @@
                     <img class="lupa">
                 </button>
                 </div>
-
+                
                 <button class="btn btn-outline-success me-2" type="button" (click)="togglePrecio()">Precio <img class="arrow1"></button>
                   <ul *ngIf="showPrecio" class="dropdown-list">
                     <li><a>Opción 1</a></li>
                     <li><a>Opción 2</a></li>
                     <li><a>Opción 3</a></li>
                   </ul>
+        
 
                 <button class="btn btn-outline-success me-2" type="button" (click)="toggleToferta()">Tipo de Oferta <img class="arrow1"></button>
                   <ul *ngIf="showToferta" class="dropdown-list">
@@ -55,8 +57,13 @@
 
 
                 <button class="btn btn-outline-success me-2" type="button">Filtrar <img class="filter"></button>
+
+
+                
               
-          </nav>
+                </div>
+                
+        
 
 
     <!-- Lista de Resultados -->
@@ -95,12 +102,12 @@
 
 
 
-
+ 
   </div>
-
-
-
-
   <app-footer></app-footer>
+
+
+
+  
 
 

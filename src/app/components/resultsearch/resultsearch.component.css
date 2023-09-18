@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
 h1{
 
@@ -22,15 +17,30 @@ h1{
     margin: 0; /* Margen cero para evitar espacios innecesarios */
 }
 
-.resultsearch{
-    margin-top: 40px;
-}
+
+/* Estilos de los Div */
+
+.resultsearch {
+    align-items: center; /* Centra los elementos verticalmente */
+  }
 
 .navbar{
-    margin-left: auto;
-    margin-right: 400px;
-}
+    display: flex; /* Utiliza "flex" en lugar de "flexbox" */
+    width: 80%;
+    margin-top: 25px;
+    height: auto;
+    align-items: right;
+    
 
+}
+.buscador{
+    display: flex; /* hace que la barra de busqueda y el boton esten juntos*/
+ }
+
+
+
+
+ /* Estilo de los iconos de los botones */
 
  .lupa{
     background: url('https://api.iconify.design/iconamoon/search-fill.svg?color=%23044504') no-repeat center center / contain;
@@ -61,21 +71,14 @@ h1{
  }
 
 
- .buscador{
-    display: flex;
- }
+
+
+/* estilo del input del buscador */
  .form-control{
     width: 300px;
     height: 40px;
  }
 
- .list-group{
-    margin-top: 100px;
- }
-
-
- /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
- /* Oculta los elemenotos desplegables por defecto */
   
 /* Estilo para el contenedor de los botones */
 .button-container {
@@ -89,13 +92,14 @@ h1{
     color: #333; /* Color de texto */
     cursor: pointer;
     padding: 0.5rem 1rem; /* Espaciado interno */
+
   }
-  
+
   /* Estilo para las listas */
   .dropdown-list {
 
     list-style: none;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
     position: absolute;
     background-color: #fff; /* Fondo de la lista */
@@ -103,7 +107,7 @@ h1{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
     top: 100%; /* Posición debajo del botón */
-    left: 0; /* Alinea con el borde izquierdo del contenedor */
+    margin-left: 450px;
   }
   
   /* Estilo para los elementos de la lista */
