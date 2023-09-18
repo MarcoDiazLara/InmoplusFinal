@@ -1,0 +1,143 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.image {
+    flex: 1; /* La imagen ocupará un tercio del ancho disponible */
+    margin-right: 20px; /* Espacio entre la imagen y el formulario */
+     border: 1px solid green;
+    
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px 0;
+    color: #067717;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  
+  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px 0;
+    color: #92d984;
+    font-size: 25px;
+ 
+    text-align: center;
+  }
+ 
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+   
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.custom-label {
+    font-size: 16px; /* Tamaño de la fuente deseado para etiquetas con la clase .custom-label */
+}
+
+
+/* Consulta de medios para hacerlo responsivo */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    label,
+    input {
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"] {
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        padding: 8px 15px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido dentro de .container */
+}
+
+.button {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #07732D;
+    border-radius: 2px;
+    position: relative;
+    background-color:#FFFFFF;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+  }
+  
+  .button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #07732D;
+    z-index: -1;
+  }
+  
+  .button:hover, .butto:focus {
+    color: 	#FFFFFF;
+  }
+  
+  .button:hover:before, .butto:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .button:active {
+    transform: scale(0.9);
+  }

@@ -1,93 +1,67 @@
-
-<!-- Tu comentario aquí -->
-<!-- <nav>
-    <ul>
-        <a routerLink="/home" routerLinkActive="active-link">Inicio</a>
-        <a routerLink="/Pagina1" routerLinkActive="active-link">Pagina1</a>
-        <a routerLink="/Pagina2" routerLinkActive="active-link">Pagina2</a>
-        
-    </ul>
-</nav> -->
-
-<!-- menu.component.html -->
-  <!-- menu.component.html -->
-  
-  
-  <div class="container">
-    <div class="logo">
-      <div class="borM">
-    <img  class="imagen-izquierda"src="assets/logo.png" alt="Imagen" >
-    </div>
+<div class="container">
+  <div class="logo">
+    <div class="borM">
+  <img  class="imagen-izquierda"src="assets/logo.png" alt="Imagen" >
   </div>
+</div>
+  
+  <div class="contenedor_enlaces">
+  <ul class="menu-horizontal">
+    <li><a href="#">Comprar</a></li>
+    <li><a href="#">Rentar</a></li>
+    <li><a href="#">Servicios</a></li>
+    <!-- Agrega más opciones de menú si es necesario -->
+  </ul>
+  <div class="MovimientoBoton">
+    <div class="container">
+      <button  class="button" (click)="mostrarVentana()">Ofrecer</button>
     
-    <div class="contenedor_enlaces">
-    <ul class="menu-horizontal">
-      <li><a href="#">Comprar</a></li>
-      <li><a href="#">Rentar</a></li>
-      <li><a href="#">Servicios</a></li>
-      <!-- Agrega más opciones de menú si es necesario -->
-    </ul>
-    <div class="MovimientoBoton">
-      <div class="container">
-        <button  class="button" (click)="mostrarVentana()">Ofrecer</button>
-      
-        <!-- Ventana flotante -->
-        <div class="ventana" [ngClass]="{'visible': ventanaVisible}">
-          <div class="contenido">
-            <button  class="button4"(click)="cerrarVentana()">
-              <span class="X"></span>
-            <span class="Y"></span>
-             <div class="close">Close</div>
-            </button>
-            <br>
-            <br>	
-            <br>
-            <h1> ¿Con qué descripción te identificas? </h1> 
-            <br>
-             <h2> Elige la opción que mejor se adapte a tus gustos. </h2> 
-            <br>
-            <br>	
-           
+      <!-- Ventana flotante -->
+      <div class="ventana" [ngClass]="{'visible': ventanaVisible}">
+        <div class="contenido">
+          <button  class="button4"(click)="cerrarVentana()">
+            <span class="X"></span>
+          <span class="Y"></span>
+           <div class="close">Close</div>
+          </button>
+          <br>
+          <br>	
+          <br>
+          <h1> ¿Con qué descripción te identificas? </h1> 
+          <br>
+           <h2> Elige la opción que mejor se adapte a tus gustos. </h2> 
+          <br>
+          <br>	
+         
 
-            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <img  class="ima" src="assets/Casa3.png">&nbsp;
-    
-            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; <img   (click) = "Regis()" class="ima" src="assets/arquitecto.png">
-            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img   (click) = "Regis()" class="ima" src="assets/agente.png">
-                <br>
-                <br>
-                <button (click) = "formulario()"  class="butto" >Particular <br> 
-                  Dueño Directo</button>
-                <button   (click) = "Regis()"  class="butto">Particular<br> Dueño Directo</button>
-                    <button (click) = "Regis()"  class="butto" >Constructora <br> Desarrolladora</button>
-                
-          </div>
+          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <img  class="ima" src="assets/Casa3.png">&nbsp;
+  
+          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; <img   (click) = "Regis()" class="ima" src="assets/arquitecto.png">
+          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img   (click) = "Regis()" class="ima" src="assets/agente.png">
+              <br>
+              <br>
+              <button (click) = "formulario()"  class="butto" >Particular <br> 
+                Dueño Directo</button>
+              <button   (click) = "Regis()"  class="butto">Particular<br> Dueño Directo</button>
+                  <button (click) = "Regis()"  class="butto" >Constructora <br> Desarrolladora</button>
+              
         </div>
       </div>
-     
-
-
     </div>
-  
+   
+
+
   </div>
-    
-       <!--   <img src="assets/user.png" class="imagen-estilo"> -->
-         <!-- Creacion2  -->
-      <div class="boton2">
-      <button class="butto"  (click)="navegacion()" >Ingresar</button>
-      </div> 
 
-
-    
-      
- 
-  
-
-    
-  
-  
 </div>
- 
-
   
+     <!--   <img src="assets/user.png" class="imagen-estilo"> -->
+       <!-- Creacion2  -->
+    <div class="boton2">
+    <button class="butto"  (click)="navegacion()" >Ingresar</button>
+    </div> 
 
-     
+
+</div>
+
+
