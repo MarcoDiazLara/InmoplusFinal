@@ -76,16 +76,43 @@ h1{
 
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  /* Oculta los elemenotos desplegables por defecto */
-
-  /* Estilo para ocultar las listas por defecto */
-.dropdown-list {
-    display: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  
+/* Estilo para el contenedor de los botones */
+.button-container {
+    position: relative; /* Importante para posicionar las listas de forma relativa a este contenedor */
   }
   
-  /* Estilo para mostrar las listas cuando el botón correspondiente está activo */
-  .active {
-    display: block;
+  /* Estilo para los botones */
+  .dropdown-button {
+    background-color: transparent;
+    border: none;
+    color: #333; /* Color de texto */
+    cursor: pointer;
+    padding: 0.5rem 1rem; /* Espaciado interno */
+  }
+  
+  /* Estilo para las listas */
+  .dropdown-list {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #fff; /* Fondo de la lista */
+    border: 1px solid #ccc; /* Borde de la lista */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1; /* Asegura que la lista esté por encima de otros elementos */
+    top: 100%; /* Posición debajo del botón */
+    left: 0; /* Alinea con el borde izquierdo del contenedor */
+  }
+  
+  /* Estilo para los elementos de la lista */
+  .dropdown-list li {
+    padding: 0.5rem 1rem; /* Espaciado interno de elementos de lista */
+    border-bottom: 1px solid #ccc; /* Borde inferior de elementos de lista */
+  }
+  
+  /* Estilo para los elementos de la lista al pasar el mouse sobre ellos */
+  .dropdown-list li:hover {
+    background-color: #f0f0f0; /* Cambio de color al pasar el mouse sobre elementos de lista */
   }
