@@ -1,11 +1,41 @@
 
+.producto h1{
+  color: #067b06;
+  font-size: 30px;
+  margin-top: -15px;
+  margin-left: -10px;
+  text-align: left;
+}
 
 .ListResult h2{
     color: #044504;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 20px;
     
+}
+
+
+.producto h3{
+    color: #067b06;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: -10px;
+    text-align: left;
+}
+.producto h4{
+    color: #48b848;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: -10px;
+    text-align: left;
+}
+
+
+.navbar .divider {
+    height: 20px; /* Altura de la línea */
+    background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
+    margin: 0; /* Margen cero para evitar espacios innecesarios */
 }
 
 
@@ -19,18 +49,15 @@
     position: fixed; /* Establece la posición fija */
     top: 0; /* Fija el div en la parte superior de la pantalla */
     left: 0; /* Fija el div en la parte izquierda de la pantalla */
+    width: 100%; /* Establece el ancho al 100% de la pantalla */
     display: block; /* Utiliza "flex" en lugar de "flexbox" */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
-    width: 100%; /* Establece el ancho al 100% de la pantalla */
     z-index: 999; /* Asegura que el div esté en la parte superior de otros elementos */
     background-color: #ffffff;
     padding-left: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
-    padding-right: 0%;
-
-    align-items: right;
-    
+    padding-right: 0%;    
 
 }
 .buscador{
@@ -121,7 +148,9 @@
 
 
   .ListResult{
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-top: 0%;
+
   }
 
   .dropdown-Toferta {
@@ -239,8 +268,11 @@
 
 
   /* Estilo personalizado para los resultados de búsqueda */
+
+
+
   .producto {
-    border: 1px solid #ccc;
+    border: 1px solid #41a41f;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -256,4 +288,22 @@
     margin-top: 10px;
   }
 
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; /* Elimina el espacio entre las celdas */
+  }
+
+  th, td {
+  border: none; /* Establece bordes para las celdas */
+  padding: 0%;
+  }
+  .imgresult{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 0%;
+    padding: 0%; 
+    
+  }
   
