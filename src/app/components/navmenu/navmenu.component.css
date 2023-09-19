@@ -276,10 +276,6 @@ display: block;
 
 width: 95px; /* Ajusta el ancho de la imagen según tus necesidades */
     height:95px;
-
-
-
-
 }
 h1 {
 font-size: 36px; /* Tamaño de fuente */
@@ -358,6 +354,86 @@ background-color: rgb(130, 0, 0);
 
 .button4:hover > .close {
 animation: close 0.2s forwards 1.25s;
+}
+
+.imagenes-horizontales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-container {
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.imagen-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+
+}
+
+.butto1 {
+  width: 185px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 9px 10px; 
+    border: 2px solid #07732D;
+    border-radius: 2px;
+    position: relative;
+    background-color:#FFFFFF;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    margin-top: 5px;
+    padding: 20px;
+  }
+  
+ .butto1:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #07732D;
+    z-index: -1;
+  }
+
+  .butto1:hover {
+    cursor: pointer;
+  }
+  
+  .butto1:hover, .butto1:focus {
+    color: 	#FFFFFF;
+  }
+  
+  .butto1:hover:before, .butto1:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  butto1:active {
+    transform: scale(0.9);
+  }
+
+  
+  @media (max-width: 768px) {
+  .ventana {
+        max-width: 90%;
+    }
 }
 
 @keyframes close {
