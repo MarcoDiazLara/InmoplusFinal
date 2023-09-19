@@ -34,7 +34,6 @@ import { Formu3Component } from './components/formu3/formu3.component';
 import { Formu4Component } from './components/formu4/formu4.component';
 
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
-import { ResultInmuebleComponent } from './result-inmueble/result-inmueble.component';
 
 
 
@@ -60,7 +59,7 @@ import { ResultInmuebleComponent } from './result-inmueble/result-inmueble.compo
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, ResultInmuebleComponent, 
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,
 
 
   ],
