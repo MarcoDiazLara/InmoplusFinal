@@ -12,7 +12,7 @@ export class RegistroComponent {
 
 
   registro: any = {
-    Correo_Electronico: "",
+    Correo_electronico: "",
     Password: ""
   }
 

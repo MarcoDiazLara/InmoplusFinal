@@ -1,0 +1,16 @@
+#container_main {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#container_widgets {
+    background-color: lightcoral;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#calendar {
+    background-color: lightcyan;
+}

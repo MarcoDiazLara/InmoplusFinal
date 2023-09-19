@@ -1,0 +1,29 @@
+<!-----------CREACION DEL COMPONENTE MENU LATERAL--------->
+<aside id="asidebar">
+    <ul id="list_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Mi Cuenta</a>
+            <button id="more" (click)="toggleSubmenu()">+</button>
+        </li>
+        <div id="container_submenu">
+        <ul id="submenu_config">
+            <li><a href="#">Perfil de usuario</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Contraseña</a></li>
+            <li><a href="#">Notificaciones</a></li>
+        </ul>
+        </div>
+        <li><a href="#">Configuracion</a>
+            <button id="more2" (click)="toggleSubmenu2()">+</button>
+        </li>
+        <div id="container_submenu2">
+            <ul id="submenu_config2">
+                <li><a href="#">Fechas Hito</a></li>
+                <li><a href="#">Listas Maestras</a></li>
+                <li><a href="#">Campos y Variables</a></li>
+            </ul>
+            </div>
+        <li><a href="#">Agregar Usuario</a></li>
+        <li><a href="#">Cerrar Sesion</a></li>
+    </ul>
+</aside>

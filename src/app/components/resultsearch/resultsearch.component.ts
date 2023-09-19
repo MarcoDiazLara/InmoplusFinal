@@ -1,6 +1,7 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-resultsearch',
   templateUrl: './resultsearch.component.html',
