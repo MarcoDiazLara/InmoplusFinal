@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-navmenu',
   templateUrl: './navmenu.component.html',
@@ -38,6 +39,9 @@ export class NavmenuComponent
     this.ventanaVisible = false;
   }
 
+ 
+  
+
 
    navegacion(){
       this.router.navigate(['/pagina2']);
@@ -52,7 +56,10 @@ export class NavmenuComponent
   this.router.navigate(['/formu1']);
 }
 
-
+ 
+VolverIndex(){
+  this.router.navigate(['/pagina1']);
+}
 
 
 
