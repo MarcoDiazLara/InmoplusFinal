@@ -34,10 +34,9 @@ import { Formu3Component } from './components/formu3/formu3.component';
 import { Formu4Component } from './components/formu4/formu4.component';
 
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
-
-
-
-
+import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
+import { WidgetComponent } from './components/widget/widget.component';
+import { MainsectionComponent } from './components/mainsection/mainsection.component';
 
 
 
@@ -59,7 +58,7 @@ import { RegistrocompletoComponent } from './components/registrocompleto/registr
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent
 
 
   ],
