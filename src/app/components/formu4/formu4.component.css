@@ -1,4 +1,3 @@
-/*
 * {
     margin    : 0;
     padding   : 0;
@@ -38,7 +37,7 @@ app-estatus {
 
 .movi form {
     width     : 80%;
-    height: 150vh;
+    height    : 150vh;
     border    : 1px solid #ccc;
     padding   : 50px;
     box-sizing: border-box;
@@ -53,23 +52,24 @@ app-estatus {
 }
 
 .movi h2 {
-    font-size: 30px;
+    font-size : 30px;
     text-align: center;
 }
 
-.movi ,
+.movi,
 h4 {
     text-align: left;
-    
+
 }
 
 .movi h4 {
-    font-size: 20px;
+    font-size  : 20px;
+    font-weight: 500;
 
 }
 
 .movi h3 {
-font-size: 17px;
+    font-size: 17px;
 }
 
 
@@ -80,54 +80,30 @@ font-size: 17px;
 }
 
 
+
 input {
     width : 50px;
     height: 40px;
 
 }
 
-table{
+
+
+table {
     width: 450px;
 }
- table th {
-    width: 20px;
- }
- table tr {
-    width: 20px;
- }
 
-.tamaño{
-    width: 100%;
-    height: 34px;
+
+.ordenatext {
+    width: 280px;
 }
 
-.tamañoradio{
-    width: 41px;
-    height: 21px;
+.ordenatext1 {
+    width: 150px;
 }
-*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+select {
+    width : 250px;
+    height: 40px;
+}
