@@ -11,71 +11,78 @@
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<app-navmenu></app-navmenu>
-<div class="divider"></div>
 
-<div class="resultsearch">
+  
+  <div class="navbar">
+    <div>
+    <app-navmenu></app-navmenu>
+    </div>
+          
+    <div>      
+    <div class="divider"></div>
 
-     
-        <div class="navbar">
-            
-                <div class="buscador">
-                <input class="form-control" type="search" (click)="toggleSearch()" placeholder="Ingresa tu ciudad o Localidad" aria-label="Buscar">
-                <ul *ngIf="showSearch" class="dropdown-search">
-                  <li><span> Sin Coincidencias...</span></li>
-                  
-                </ul>
-                <button class="btn btn-outline-success" type="submit">
-                    <img class="lupa">
-                </button>
-                </div>
-                
-                <button class="btn btn-outline-success me-2" (click)="togglePrecio()">Precio <img class="arrow1"></button>
-                  <ul *ngIf="showPrecio" class="dropdown-precio">
-                    <li><a>Opción 1</a></li>
-                    <li><a>Opción 2</a></li>
-                    <li><a>Opción 3</a></li>
-                  </ul>
-        
-
-                <button class="btn btn-outline-success me-2"  (click)="toggleToferta()">Tipo de Oferta <img class="arrow1"></button>
-                  <ul *ngIf="showToferta" class="dropdown-Toferta">
-                    <li><a>Venta</a></li>
-                    <li><a>Renta</a></li>
-                    <li><a>Remate</a></li>
-                    <li><a>En construcción</a></li>
-                  </ul>
-
-                <button class="btn btn-outline-success me-2" (click)="toggleInmueble()">Inmueble <img class="arrow1"></button>
-                  <ul *ngIf="showInmueble" class="dropdown-inmueble">
-                    <li><a>Departamento</a></li>
-                    <li><a>Flex</a></li>
-                    <li><a>Rancho</a></li>
-                    <li><a>More...</a></li>
-                  </ul>
-
-                <button class="btn btn-outline-success me-2" (click)="toggleRecamaras()">Recamaras <img class="arrow1"></button>
-                  <ul *ngIf="showRecamaras" class="dropdown-Recamaras">
-                    <li><a>Opción 1</a></li>
-                    <li><a>Opción 2</a></li>
-                    <li><a>Opción 3</a></li>
-                  </ul>
-
-
-                <button class="btn btn-outline-success me-2">Filtrar <img class="filter"></button>
-
-
-                
-              
-                </div>
-                
-        
-
-
-    <!-- Lista de Resultados -->
-
+    <div class="buscador">
+    <input class="form-control" type="search" (click)="toggleSearch()" placeholder="Ingresa tu ciudad o Localidad" aria-label="Buscar">
+    <ul *ngIf="showSearch" class="dropdown-search">
+      <li><span> Sin Coincidencias...</span></li> 
+    </ul>
+    <button class="btn btn-outline-success" type="submit">
+        <img class="lupa">
+    </button>
+    
 
     <div>
+    <button class="btn btn-outline-success me-2" (click)="togglePrecio()">Precio <img class="arrow1"></button>
+      <ul *ngIf="showPrecio" class="dropdown-precio">
+        <li><a>Opción 1</a></li>
+        <li><a>Opción 2</a></li>
+        <li><a>Opción 3</a></li>
+      </ul>
+    </div>
+
+    <div>
+    <button class="btn btn-outline-success me-2"  (click)="toggleToferta()">Tipo de Oferta <img class="arrow1"></button>
+      <ul *ngIf="showToferta" class="dropdown-Toferta">
+        <li><a>Venta</a></li>
+        <li><a>Renta</a></li>
+        <li><a>Remate</a></li>
+        <li><a>En construcción</a></li>
+      </ul>
+    </div>
+
+    <div>
+    <button class="btn btn-outline-success me-2" (click)="toggleInmueble()">Inmueble <img class="arrow1"></button>
+      <ul *ngIf="showInmueble" class="dropdown-inmueble">
+        <li><a>Departamento</a></li>
+        <li><a>Flex</a></li>
+        <li><a>Rancho</a></li>
+        <li><a>More...</a></li>
+      </ul>
+    </div>
+
+    <div>
+    <button class="btn btn-outline-success me-2" (click)="toggleRecamaras()">Recamaras <img class="arrow1"></button>
+      <ul *ngIf="showRecamaras" class="dropdown-Recamaras">
+        <li><a>Opción 1</a></li>
+        <li><a>Opción 2</a></li>
+        <li><a>Opción 3</a></li>
+      </ul>
+    </div>
+    <button class="btn btn-outline-success me-2">Filtrar <img class="filter"></button>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+ <!-- Lista de Resultados -->
+
+<div>
+   
+
+    <div class="ListResult">
 
 
       <h2>
@@ -87,29 +94,96 @@
         para (<span id="usuarioP"></span>)
       </h2>
 
-    <ul class="list-group">
-      <li class="list-group-item">
-        <h4>Resultado 1</h4>
-        <p>Aqui va el resultado 1 xdxdxd.</p>
-      </li>
-      <li class="list-group-item">
-        <h4>Resultado 2</h4>
-        <p>Aqui va el resultado 2 xdxdxd.</p>
-      </li>
-      <li class="list-group-item">
-        <h4>Resultado 3</h4>
-        <p>Aqui va el resultado 3 xdxdxd.</p>
-      </li>
-    </ul>
+    </div>
+
+
+<!-- resultados.component.html -->
+<div class="container">
+  <div class="row">
+
+
+
+    <div class="col-md-6">
+      <div class="producto">
+        <h3>Producto 1</h3>
+        <img src="imagen1.jpg" alt="Producto 1">
+        <p class="precio">$500.00</p>
+        <div class="caracteristicas">
+          <p>Características Generales:</p>
+          <ul>
+            <li>Descripción 1</li>
+            <li>Descripción 2</li>
+            <li>Descripción 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+      <div class="producto">
+        <h3>Producto 2</h3>
+        <img src="imagen2.jpg" alt="Producto 2">
+        <p class="precio">$750.00</p>
+        <div class="caracteristicas">
+          <p>Características Generales:</p>
+          <ul>
+            <li>Descripción 1</li>
+            <li>Descripción 2</li>
+            <li>Descripción 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+      <div class="producto">
+        <h3>Producto 3</h3>
+        <img src="imagen1.jpg" alt="Producto 1">
+        <p class="precio">$500.00</p>
+        <div class="caracteristicas">
+          <p>Características Generales:</p>
+          <ul>
+            <li>Descripción 1</li>
+            <li>Descripción 2</li>
+            <li>Descripción 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+      <div class="producto">
+        <h3>Producto 4</h3>
+        <img src="imagen2.jpg" alt="Producto 2">
+        <p class="precio">$750.00</p>
+        <div class="caracteristicas">
+          <p>Características Generales:</p>
+          <ul>
+            <li>Descripción 1</li>
+            <li>Descripción 2</li>
+            <li>Descripción 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
 
   </div>
+</div>
 
 
 
 
  
-  </div>
+
+</div>
+
   <app-footer></app-footer>
 
 

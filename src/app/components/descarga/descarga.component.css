@@ -54,3 +54,33 @@ h3{ /* Cambiar a h6 xd porfis */
   
   }
   
+  /* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  h3 {
+    font-size: 16px;
+    margin-top: 9px;
+  }
+
+  p {
+    font-size: 20px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    margin-left: 10px; /* Ajusta el margen izquierdo para dar espacio en pantallas pequeñas */
+  }
+
+  .imagen_Descarga,
+  .imagenmanzana {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .gif,
+  .tex {
+    float: none; /* Elimina el flotado en pantallas pequeñas */
+    text-align: center; /* Centra el texto */
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+
+  .footer {
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+}
