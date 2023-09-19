@@ -38,6 +38,8 @@ import { BarralateralmenuComponent } from './components/barralateralmenu/barrala
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
 
 
+import { WidgetComponent } from './components/widget/widget.component';
+import { MainsectionComponent } from './components/mainsection/mainsection.component';
 
 
 
@@ -59,7 +61,11 @@ import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.co
 
 
 
+
     PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, BrokerperfilComponent
+
+    ,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent
+
 
 
   ],
