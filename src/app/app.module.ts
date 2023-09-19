@@ -54,6 +54,7 @@ import { RegistrocompletoComponent } from './components/registrocompleto/registr
     MenuUsuarioComponent,
     EstatusComponent,
     StesProgressComponent,
+    Formu4Component,
 
 
 

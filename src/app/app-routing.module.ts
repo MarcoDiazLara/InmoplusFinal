@@ -10,7 +10,7 @@ import { Formu1Component } from './components/formu1/formu1.component';
 import { Descarga1Component } from './components/descarga1/descarga1.component';
 import { Formu3Component } from './components/formu3/formu3.component';
 import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes.component';
-import { Formu4Component } from './components/formu4/formu4.component';
+import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
@@ -23,9 +23,10 @@ const routes: Routes = [
 {path:'resultsearch', component:ResultSearchComponent},
 {path:'formu1',component:Formu1Component },
 {path:'formu3',component:Formu3Component},
-{path:'formu4',component:Formu4Component},
 {path:'subirimagenes',component:SubirimagenesComponent},
 {path:'descarga1',component:Descarga1Component},
+{path: 'registrocompleto', component: RegistrocompletoComponent},
+
 
 
 {path:'**', component:PagenotfoundComponent},
