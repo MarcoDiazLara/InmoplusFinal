@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 })
 export class Formu1Component {
   constructor(private router: Router){}
-  For3(){ 
-    this.router.navigate(['/formu3']);  
+  For4(){ 
+    this.router.navigate(['/formu4']);  
   
   }
 
