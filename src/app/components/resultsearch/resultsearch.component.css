@@ -1,9 +1,7 @@
 
-h1{
 
-    color: blue;
-}
-.resultsearch h2{
+
+.ListResult h2{
     color: #044504;
     font-size: 30px;
     margin-top: 30px;
@@ -11,7 +9,7 @@ h1{
     
 }
 
-.divider {
+.navbar .divider {
     height: 20px; /* Altura de la línea */
     background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
     margin: 0; /* Margen cero para evitar espacios innecesarios */
@@ -25,16 +23,28 @@ h1{
   }
 
 .navbar{
-    display: flex; /* Utiliza "flex" en lugar de "flexbox" */
-    width: 80%;
-    margin-top: 25px;
-    height: auto;
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Fija el div en la parte superior de la pantalla */
+    left: 0; /* Fija el div en la parte izquierda de la pantalla */
+    display: block; /* Utiliza "flex" en lugar de "flexbox" */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 100%; /* Establece el ancho al 100% de la pantalla */
+    z-index: 999; /* Asegura que el div esté en la parte superior de otros elementos */
+    background-color: #ffffff;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+
     align-items: right;
     
 
 }
 .buscador{
     display: flex; /* hace que la barra de busqueda y el boton esten juntos*/
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
  }
 
 
@@ -86,14 +96,9 @@ h1{
   }
   
   /* Estilo para los botones */
-  .dropdown-button {
-    background-color: transparent;
-    border: none;
-    color: #333; /* Color de texto */
-    cursor: pointer;
-    padding: 0.5rem 1rem; /* Espaciado interno */
-
-  }
+.btn{
+    margin-right: 25px;
+}
 
   /* Estilo para las listas */
   .dropdown-precio {
@@ -121,6 +126,10 @@ h1{
     background-color: #f0f0f0; /* Cambio de color al pasar el mouse sobre elementos de lista */
   }
 
+
+  .ListResult{
+    padding-top: 20px;
+  }
 
   .dropdown-Toferta {
 
@@ -228,6 +237,10 @@ h1{
     background-color: #f0f0f0; /* Cambio de color al pasar el mouse sobre elementos de lista */
   }
   
+
+.ListResult{
+    margin-top: 250px; /* Igualar la altura del componente de navegación */
+}
 
 
 
