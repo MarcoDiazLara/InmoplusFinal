@@ -42,6 +42,7 @@ import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.compo
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 import { DetailsInmComponent } from './components/details-inm/details-inm.component';
+import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 
 
 
@@ -62,7 +63,7 @@ import { DetailsInmComponent } from './components/details-inm/details-inm.compon
     BarralateralmenuComponent,
     MainsectionComponent,
     WidgetComponent,
-  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, InmobiformuComponent
 
 
 
