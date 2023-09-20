@@ -13,6 +13,12 @@ import { Formu4Component } from './components/formu4/formu4.component';
 import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes.component';
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
+import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
+import { ConoceComponent } from './components/conoce/conoce.component';
+import { DetailsInmComponent } from './components/details-inm/details-inm.component';
+
+
+
 //Rutas de navegacion 
 const routes: Routes = [
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
@@ -30,6 +36,11 @@ const routes: Routes = [
 {path:'descarga1',component:Descarga1Component},
 {path: 'registrocompleto', component: RegistrocompletoComponent},
 {path:'brokerpage1',component:Brokerpage1Component},
+{path:'inmobiformu', component: InmobiformuComponent},
+{path:'conoce', component: ConoceComponent},
+{path:'details-inm',component:DetailsInmComponent},
+
+
 
 
 

@@ -1,0 +1,92 @@
+
+#containerperfil{
+    width: 100%;
+    height: 16vh;
+
+}
+
+#containerbarra{
+    width: 100%;
+    height: 20vh;
+    background-color: #044504;
+}
+
+#menuperfil{
+    width: 25%;
+    height: 72vh;
+    border: 1px solid #B5B2B2;
+    background-color: #ffffff;
+    position: absolute;
+    left: 385px;
+    top: 23%; 
+}
+
+#datosperfil{
+    width: 41%;
+    height: 72vh;
+    border: 1px solid #B5B2B2;
+    background-color: #ffffff;
+    position: absolute;
+    left: 771px;
+    bottom: 4.5%;
+    
+}
+
+#container_perfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#perfil_config {
+    display: none;
+    list-style: none;
+    width: 50%;
+    height: 50px;
+}
+
+
+#ordenatext{
+    text-align: left;
+    margin-top: 5%;
+    width: 100%;
+    padding: 0px 0px 0px 21px
+}
+
+
+#fotoperfil{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+}
+#foto{
+    width: 52%;
+    height: 97%;
+}
+
+
+
+input{
+    width: 82%;
+    height: 30px;
+}
+
+button {
+    width: 145px;
+    height: 32px;
+    background-color: #044504;
+    color: #ffffff;
+}
+
+#cbox1{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+
+
+
+
+

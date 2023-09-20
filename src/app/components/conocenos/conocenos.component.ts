@@ -10,7 +10,7 @@ export class ConocenosComponent {
 
   constructor(private router: Router){}
   Conoce(){
-    this.router.navigate(['/paginaconocenos']);
+    this.router.navigate(['/conoce']);
 
  }
 
