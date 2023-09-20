@@ -41,6 +41,7 @@ import { MainsectionComponent } from './components/mainsection/mainsection.compo
 
 import { FiltroComponent } from './components/filtro/filtro.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 
 
@@ -69,7 +70,7 @@ import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.compo
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, FiltroComponent,
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, FiltroComponent, PrivacidadComponent,
 
 
   ],
