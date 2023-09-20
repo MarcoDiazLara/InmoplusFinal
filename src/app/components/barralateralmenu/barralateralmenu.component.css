@@ -9,7 +9,7 @@
 .top_bar {
     width: 100%;
     height: 100px;
-    background-color: green;
+    background-color: #044504;
 }
 
 
@@ -56,6 +56,12 @@
     justify-content: space-between;
 }
 
+#list_menu > li:nth-child(6) {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 #more {
     padding: 4px;
     border-radius: 40%;
@@ -101,6 +107,11 @@
     justify-content: flex-end;
 }
 
+#container_submenu3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #submenu_config {
     display: none;
     list-style: none;
@@ -108,6 +119,12 @@
 }
 
 #submenu_config2 {
+    display: none;
+    list-style: none;
+    width: 50%;
+}
+
+#submenu_config3 {
     display: none;
     list-style: none;
     width: 50%;
@@ -123,6 +140,11 @@
     transition: 200ms ease-in-out;
 }
 
+#submenu_config3 li {
+    padding: 15px;
+    transition: 200ms ease-in-out;
+}
+
 #submenu_config li:hover {
     background-color: #eee;
     cursor: pointer;
@@ -133,6 +155,10 @@
     cursor: pointer;
 }
 
+#submenu_config3 li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
 
 #container_submenu3 {
     display: flex;
