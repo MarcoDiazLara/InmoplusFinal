@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #333;
+}
+p {
+    line-height: 1.5;
+}
+/* styles.css (o styles.scss) */
+.horizontal-line {
+    border-top: 19px solid #07732D; /* Estilo de la línea */
+    margin: 35px 5; /* Margen superior e inferior opcional */
+  }
+
+  div.contenedor { padding:40px;
+
+}
+p.verde {background-color: #07732D;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}; 
+
+
+
