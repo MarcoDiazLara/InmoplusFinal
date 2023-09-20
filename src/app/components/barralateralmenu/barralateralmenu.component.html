@@ -10,8 +10,8 @@
         </li>
         <div id="container_submenu">
         <ul id="submenu_config">
-            <li><a href="#">Perfil de usuario</a></li>
-            <li><a href="#">Privacidad</a></li>
+            <li><a (click)="contacto()">Perfil de usuario</a></li>
+            <li><a (click)="privacidad()">Privacidad</a></li>
             <li><a href="#">Contraseña</a></li>
             <li><a href="#">Notificaciones</a></li>
         </ul>
@@ -26,6 +26,16 @@
                 <li><a href="#">Campos y Variables</a></li>
             </ul>
             </div>
+            <li><a href="#">Inventarios</a>
+                <button id="more2" (click)="toggleSubmenu3()">+</button>
+            </li>
+            <div id="container_submenu3">
+                <ul id="submenu_config3">
+                    <li><a (click)="lista()">Lista de Inventarios</a></li>
+                    <li><a (click)="agrega()">Agregar Inventarios</a></li>
+                    <li><a (click)="asignar()">Asignar/Reasignar</a></li>
+                </ul>
+                </div>
         <li><a href="#">Agregar Usuario</a></li>
         <li><a href="#">Cerrar Sesion</a></li>
     </ul>

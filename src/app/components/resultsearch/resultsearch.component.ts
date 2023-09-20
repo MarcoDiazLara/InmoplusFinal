@@ -1,4 +1,5 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 
@@ -18,7 +19,7 @@ public showRecamaras: boolean = false;
 public showSearch: boolean = false;
 
 
-constructor(private el: ElementRef) {}
+constructor(private el: ElementRef, private router:Router) {}
 
 @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
@@ -83,6 +84,13 @@ toggleSearch() {
   this.showInmueble = false;
   this.showRecamaras = false;
 }
+
+detalle(){
+  this.router.navigate(['/details-inm']);
+
+}
+
+
 
 
 }

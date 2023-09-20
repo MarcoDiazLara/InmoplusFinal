@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #07732D;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-modify, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-modify {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+
+.table-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor {
+    display: flex; /* Utilizamos flexbox para alinear en horizontal */
+    justify-content: space-between; /* Espacio entre los elementos */
+}
