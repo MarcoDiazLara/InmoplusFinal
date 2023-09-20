@@ -2,17 +2,32 @@
 <app-mainsection>
     <div id="container_main">
     <div id="container_widgets">
-        <app-widget></app-widget>
-        <app-widget></app-widget>
-        <app-widget></app-widget>
-        <app-widget></app-widget>
+        <app-widget *ngFor="let data of widgetsData" 
+        [logoUrl]="data.logoUrl" 
+        [numero]="data.numero" 
+        [informacion]="data.informacion">
+        <div [ngClass]="{'large-text': +data.numero > 1}">
+        {{ data.numero }}
+        </div>
+    </app-widget>
+        
     </div>
     <div id="calendar">
-        <img src="assets/calendar.jpg" alt="calendario">
+        <div class="calendar_container">
+            <img src="assets/calendar.jpg" alt="calendario">
+        </div>
     </div>
-    <div id="last_status">
-        <div class="status_bar">
-            hola
+    <div class="status_section">
+        <div class="status_process">
+            <h2>Estatus de la ultima propiedad</h2>
+            <div class="steps">
+                <ul>
+                    <li><span></span>Contacto</li>
+                    <li><span></span>Visita del cliente</li>
+                    <li><span></span>Recopilacion de datos</li>
+                    <li><span></span>Pago</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
