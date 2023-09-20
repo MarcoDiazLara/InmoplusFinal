@@ -3,3 +3,20 @@
     background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
     margin: 0; /* Margen cero para evitar espacios innecesarios */
 }
+.container{
+    margin-top: 30px;
+}
+.backarrow{
+    background: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg');
+    background-size: cover; /* Tamaño de la imagen */
+    background-position: center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* Evita la repetición */
+    width: 25px;
+    height: 25px;
+
+}
+
+.container .part1{
+    display: block;
+}
