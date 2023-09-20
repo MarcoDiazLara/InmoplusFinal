@@ -43,7 +43,7 @@ import { DatehitoComponent } from './components/datehito/datehito.component';
 import { MasterlistComponent } from './components/masterlist/masterlist.component';
 import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
-
+import { ConoceComponent } from './components/conoce/conoce.component';
 
 
 
@@ -64,11 +64,9 @@ import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.compo
     MainsectionComponent,
     WidgetComponent,
 
-    InmobiformuComponent,
-  
+ 
 
-
-  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent
 
 
 

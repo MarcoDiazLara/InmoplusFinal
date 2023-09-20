@@ -14,6 +14,7 @@ import { SubirimagenesComponent } from './components/subirimagenes/subirimagenes
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
+import { ConoceComponent } from './components/conoce/conoce.component';
 
 
 
@@ -35,6 +36,8 @@ const routes: Routes = [
 {path: 'registrocompleto', component: RegistrocompletoComponent},
 {path:'brokerpage1',component:Brokerpage1Component},
 {path:'inmobiformu', component: InmobiformuComponent},
+{path:'conoce', component: ConoceComponent},
+
 
 
 
