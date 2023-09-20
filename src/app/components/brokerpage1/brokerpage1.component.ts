@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./brokerpage1.component.css']
 })
 export class Brokerpage1Component {
-  widgetsData = [
+  /*widgetsData = [
     {
       logoUrl: '../../assets/casa.png',
       numero: '5',
@@ -27,5 +27,5 @@ export class Brokerpage1Component {
       numero: '4000000',
       informacion: 'Ingresos'
     },
-  ]
+  ]*/
 }

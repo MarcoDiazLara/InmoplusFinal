@@ -2,19 +2,120 @@
 <app-mainsection>
     <div id="container_main">
     <div id="container_widgets">
-        <app-widget *ngFor="let data of widgetsData" 
+        <!--<app-widget *ngFor="let data of widgetsData" 
         [logoUrl]="data.logoUrl" 
         [numero]="data.numero" 
         [informacion]="data.informacion">
         <div [ngClass]="{'large-text': +data.numero > 1}">
         {{ data.numero }}
         </div>
-    </app-widget>
+    </app-widget>-->
+    <div class="widget">
+        <div class="logo">
+            <img src="assets/casa.png" alt="">
+        </div>
+        <div class="info">
+            <h2>5</h2>
+            <p>Propiedades</p>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="logo">
+            <img src="assets/ojo.png" alt="">
+        </div>
+        <div class="info">
+            <h2>100</h2>
+            <p>Visitas</p>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="logo">
+            <img src="assets/ventas.png" alt="">
+        </div>
+        <div class="info">
+            <h2>5</h2>
+            <p>Ventas</p>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="logo">
+            <img src="assets/dolar.png" alt="">
+        </div>
+        <div class="info">
+            <h2>+4M</h2>
+            <p>Ingresos</p>
+        </div>
+    </div>
         
     </div>
     <div id="calendar">
         <div class="calendar_container">
-            <img src="assets/calendar.jpg" alt="calendario">
+            <div class="calendar">
+                <h1>Calendario de Septiembre</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Domingo</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                            
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                           
+                        <!-- Continúa con los demás días -->
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <div class="status_section">
