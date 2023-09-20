@@ -34,12 +34,18 @@ import { Formu3Component } from './components/formu3/formu3.component';
 import { Formu4Component } from './components/formu4/formu4.component';
 
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
+
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
 
 
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
+
+import { FiltroComponent } from './components/filtro/filtro.component';
+import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
+
+
 
 
 
@@ -57,6 +63,11 @@ import { MainsectionComponent } from './components/mainsection/mainsection.compo
     EstatusComponent,
     StesProgressComponent,
     Formu4Component,
+    Brokerpage1Component,
+    BarralateralmenuComponent,
+    MainsectionComponent,
+    WidgetComponent,
+
 
 
 
@@ -65,6 +76,8 @@ import { MainsectionComponent } from './components/mainsection/mainsection.compo
     PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, BrokerperfilComponent
 
     ,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent
+
+,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, FiltroComponent,
 
 
 

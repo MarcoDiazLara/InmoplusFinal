@@ -23,11 +23,11 @@ export class RegistrocompletoComponent {
     Nombre_Usuario: "",
     Tel_Casa: "",
     Tel_Cel: "",
-    Correo_electronico: ""
+    
   }
   
   allRegis(){
-    this.httpclient.post("http://localhost:3000/usuarios/alldata", this.allData).subscribe(()=> {this.router.navigate(["/pagina2"])});
+    this.httpclient.put("http://localhost:3000/usuarios/alldata", this.allData).subscribe(()=> {this.router.navigate(["/brokerpage1"])});
   }
 
 }
