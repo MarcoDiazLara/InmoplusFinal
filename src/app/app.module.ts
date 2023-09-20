@@ -46,6 +46,10 @@ import { DetailsInmComponent } from './components/details-inm/details-inm.compon
 import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
 import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
 import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
+import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
+import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 
 
@@ -94,7 +98,11 @@ import { EliminarperfilComponent } from './components/eliminarperfil/eliminarper
      DetailsInmComponent,
      ContactobrokerlabuenaComponent,
      ContactoexperienciaComponent,
-     EliminarperfilComponent
+     EliminarperfilComponent,
+     AgregarInventariosComponent,
+     AsignarreasignarComponent,
+     ListaInventariosComponent,
+     PrivacidadComponent
   
    
 

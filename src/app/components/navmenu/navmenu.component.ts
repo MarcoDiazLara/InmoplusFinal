@@ -61,6 +61,9 @@ VolverIndex(){
   this.router.navigate(['/pagina1']);
 }
 
+xdxd(){
+  this.router.navigate(['/inmobiformu']);
+}
 
 
 
