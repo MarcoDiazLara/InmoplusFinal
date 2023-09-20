@@ -59,4 +59,8 @@ export class BarralateralmenuComponent {
   privacidad(){
     this.router.navigate(['/privacidad']);
   }
+
+  contacto(){
+    this.router.navigate(['/contactobroker']);
+  }
 }

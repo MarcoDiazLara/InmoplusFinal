@@ -48,14 +48,13 @@ import { ContactoexperienciaComponent } from './components/contactoexperiencia/c
 import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
-<<<<<<< HEAD
+
 import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 
-=======
+
 import { VisualtourComponent } from './components/visualtour/visualtour.component';
->>>>>>> 87801960da7f01b29f91a6d81b09a2012325361a
 
 
 
@@ -105,14 +104,12 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
      EliminarperfilComponent,
      AgregarInventariosComponent,
      AsignarreasignarComponent,
-<<<<<<< HEAD
+
      ListaInventariosComponent,
-     PrivacidadComponent
-  
-   
-=======
-     VisualtourComponent
->>>>>>> 87801960da7f01b29f91a6d81b09a2012325361a
+     PrivacidadComponent,
+
+     VisualtourComponent,
+
 
 
 
