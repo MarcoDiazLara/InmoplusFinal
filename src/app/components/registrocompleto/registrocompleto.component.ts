@@ -27,7 +27,7 @@ export class RegistrocompletoComponent {
   }
   
   allRegis(){
-    this.httpclient.put("http://localhost:3000/usuarios/alldata", this.allData).subscribe(()=> {this.router.navigate(["/pagina1"])});
+    this.httpclient.put("http://localhost:3000/usuarios/alldata", this.allData).subscribe(()=> {this.router.navigate(["/brokerpage1"])});
   }
 
 }
