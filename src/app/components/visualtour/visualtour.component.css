@@ -1,0 +1,14 @@
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: #044504;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.contenido{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.titulo{
+    margin-bottom: 70px;
+}

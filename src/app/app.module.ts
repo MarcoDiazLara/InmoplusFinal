@@ -49,6 +49,7 @@ import { EliminarperfilComponent } from './components/eliminarperfil/eliminarper
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 
+
 import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
@@ -105,8 +106,12 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
      AgregarInventariosComponent,
      AsignarreasignarComponent,
 
+
      ListaInventariosComponent,
      PrivacidadComponent,
+
+     VisualtourComponent,
+
 
      VisualtourComponent,
 
@@ -121,7 +126,7 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
+    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
