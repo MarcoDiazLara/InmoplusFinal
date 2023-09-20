@@ -1,11 +1,22 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+
 .divider {
     height: 20px; /* Altura de la línea */
     background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
     margin: 0; /* Margen cero para evitar espacios innecesarios */
 }
-.container{
-    margin-top: 30px;
-}
+
 .backarrow{
     background: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg') no-repeat center center / contain;
     content: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg');
@@ -23,8 +34,8 @@
 
 
 img{
-    width: 60%px;
-    height: 70%px;
+    width: 550px;
+    height: 600px;
 
 
 }
