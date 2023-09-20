@@ -40,6 +40,7 @@ import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
 
 import { FiltroComponent } from './components/filtro/filtro.component';
+import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 
 
 
@@ -59,6 +60,10 @@ import { FiltroComponent } from './components/filtro/filtro.component';
     EstatusComponent,
     StesProgressComponent,
     Formu4Component,
+    Brokerpage1Component,
+    BarralateralmenuComponent,
+    MainsectionComponent,
+    WidgetComponent,
 
 
 
