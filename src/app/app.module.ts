@@ -37,7 +37,7 @@ import { RegistrocompletoComponent } from './components/registrocompleto/registr
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
-
+import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 
 
 
@@ -58,7 +58,7 @@ import { MainsectionComponent } from './components/mainsection/mainsection.compo
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component
 
 
   ],
