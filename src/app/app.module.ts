@@ -44,6 +44,7 @@ import { ContactobrokerComponent } from './components/contactobroker/contactobro
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { DetailsInmComponent } from './components/details-inm/details-inm.component';
 import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
+import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
 
 
 
@@ -90,7 +91,8 @@ import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabue
      ResultSearchComponent,
      InmobiformuComponent,
      DetailsInmComponent,
-     ContactobrokerlabuenaComponent
+     ContactobrokerlabuenaComponent,
+     ContactoexperienciaComponent
   
    
 
