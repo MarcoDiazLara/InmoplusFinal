@@ -6,10 +6,22 @@
     <div id="containerbarra">
     </div>
     <div id="menuperfil">
-        <div id="">
-
+        <div id="fotoperfil">
+        <img id="foto"src="../../../assets/perfil.png">
+        <h4>Juanito Perez</h4>
         </div>
+        <div>
+            <ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Tutoriales</a></li>
+				<li><a href="#">Cursos</a></li>
+				<li><a href="#">Bootcamps</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+        </div>
+       
     </div>
+    
     <div id="datosperfil">
         <table >
 
@@ -17,48 +29,52 @@
                 <th>
                     <h3 id="ordenatext">Nombre</h3>
                 </th>
-                <th>
+                <th >
                     <h3 id="ordenatext">Apellido</h3>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <input type="text" size="30" maxlength="60" value="Nombre" name="nombre">
+                    <input type="text" size="30" maxlength="100" value="" name="nombre">
                 </th>
                 <th>
-                    <input type="text" size="30" maxlength="60" value="Nombre" name="nombre">
+                    <input type="text" size="30" maxlength="60" value="" name="nombre">
                 </th>
             </tr>
-
             <tr>
                 <th>
-                    <h3 id="ordenatext">Nombre</h3>
+                    <h3 id="ordenatext">Fecha de Nacimiento</h3>
                 </th>
                 <th>
                     <h3 id="ordenatext">Genero</h3>
                 </th>
-
             </tr>
             <tr>
                 <th>
-                    <input type="text" size="30" maxlength="60" value="Nombre" name="nombre">
-
+                    <input  type="text" size="30" maxlength="60" value="" name="nombre">
                 </th>
-                <th >
-                    <label><input  type="checkbox" id="cbox1" value="first_checkbox" />M</label>
-                    <label><input  type="checkbox" id="cbox1" value="first_checkbox" />F</label>
+                <th>
+                    <label><input class="odernacheck" type="checkbox" id="cbox1" value="first_checkbox" /> M </label>
+                    <label><input type="checkbox" id="cbox1" value="first_checkbox" /> F </label
+                >
                 </th>
-               
             </tr>
             <tr>
-                <br>
-            <th>
-                <button type="button">Sube tu documento</button>
-            </th>
-        </tr>
-
-
-
+                <th>
+                    <h3 id="ordenatext2">Validacion de identidad</h3>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <button id="buttonsube" type="button">Sube tu Documeto</button>
+                </th>
+            </tr>
+            <br>
+            <tr>
+                <th>
+                    <button type="button">Actualizar</button>
+                </th>
+            </tr>
         </table>
     </div>
 

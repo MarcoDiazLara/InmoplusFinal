@@ -13,28 +13,54 @@
 
 #menuperfil{
     width: 25%;
-    height: 65vh;
+    height: 72vh;
     border: 1px solid #B5B2B2;
-    background-color:#ffffff;
+    background-color: #ffffff;
     position: absolute;
     left: 385px;
-    top: 26%; 
+    top: 23%; 
 }
 
 #datosperfil{
     width: 41%;
-    height: 65vh;
+    height: 72vh;
     border: 1px solid #B5B2B2;
-    background-color: #ffffff;  
+    background-color: #ffffff;
     position: absolute;
     left: 771px;
-    bottom: 9%;
+    bottom: 4.5%;
+    
+}
+
+#container_perfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#perfil_config {
+    display: none;
+    list-style: none;
+    width: 50%;
+    height: 50px;
 }
 
 
-#ordenatext {
-    width: 95px;
-    margin-top: 10%;
+#ordenatext{
+    text-align: left;
+    margin-top: 5%;
+    width: 100%;
+    padding: 0px 0px 0px 21px
+}
+
+
+#fotoperfil{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+}
+#foto{
+    width: 52%;
+    height: 97%;
 }
 
 
@@ -44,11 +70,23 @@ input{
     height: 30px;
 }
 
+button {
+    width: 145px;
+    height: 32px;
+    background-color: #044504;
+    color: #ffffff;
+}
+
 #cbox1{
     width: 20px;
     height: 20px;
-    margin: 10%;
+    
 }
+
+
+
+
+
 
 
 
