@@ -1,0 +1,54 @@
+
+#containerperfil{
+    width: 100%;
+    height: 16vh;
+
+}
+
+#containerbarra{
+    width: 100%;
+    height: 20vh;
+    background-color: #044504;
+}
+
+#menuperfil{
+    width: 25%;
+    height: 65vh;
+    border: 1px solid #B5B2B2;
+    background-color:#ffffff;
+    position: absolute;
+    left: 385px;
+    top: 26%; 
+}
+
+#datosperfil{
+    width: 41%;
+    height: 65vh;
+    border: 1px solid #B5B2B2;
+    background-color: #ffffff;  
+    position: absolute;
+    left: 771px;
+    bottom: 9%;
+}
+
+
+#ordenatext {
+    width: 95px;
+    margin-top: 10%;
+}
+
+
+
+input{
+    width: 82%;
+    height: 30px;
+}
+
+#cbox1{
+    width: 20px;
+    height: 20px;
+    margin: 10%;
+}
+
+
+
