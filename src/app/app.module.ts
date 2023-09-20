@@ -35,6 +35,9 @@ import { Formu4Component } from './components/formu4/formu4.component';
 
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 
+import { InformacionComponent } from './informacion/informacion.component';
+
+
 
 
 
@@ -55,11 +58,12 @@ import { RegistrocompletoComponent } from './components/registrocompleto/registr
     EstatusComponent,
     StesProgressComponent,
     Formu4Component,
+    InformacionComponent,
 
 
 
 
-    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, 
+    PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent, InformacionComponent, 
 
 
   ],
