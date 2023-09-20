@@ -20,31 +20,31 @@
     <br>
     <br>
         <label  class="custom-label" for="nombres">Nombres:</label>
-        <input type="text" id="nombres" name="nombres" required><br>
+        <input [(ngModel)]="allData.Nombres" type="text" id="nombres" name="nombres" required><br>
 
         <label  class="custom-label" for="apellido_paterno">Apellido Paterno:</label>
-        <input type="text" id="apellido_paterno" name="apellido_paterno" required><br>
+        <input [(ngModel)]="allData.Apellido_Paterno" type="text" id="apellido_paterno" name="apellido_paterno" required><br>
 
         <label class="custom-label" for="apellido_materno">Apellido Materno:</label>
-        <input type="text" id="apellido_materno" name="apellido_materno" required><br>
+        <input [(ngModel)]="allData.Apellido_Materno" type="text" id="apellido_materno" name="apellido_materno" required><br>
 
         <label class="custom-label" for="curp">CURP:</label>
-        <input type="text" id="curp" name="curp" required><br>
+        <input [(ngModel)]="allData.CURP" type="text" id="curp" name="curp" required><br>
 
         <label class="custom-label" for="nombre_usuario">Nombre de Usuario:</label>
-        <input type="text" id="nombre_usuario" name="nombre_usuario" required><br>
+        <input [(ngModel)]="allData.Nombre_Usuario" type="text" id="nombre_usuario" name="nombre_usuario" required><br>
 
         <label class="custom-label" for="rfc">RFC:</label>
-        <input type="text" id="rfc" name="rfc" required><br>
+        <input [(ngModel)]="allData.RFC" type="text" id="rfc" name="rfc" required><br>
 
         <label class="custom-label" for="telefono_casa">Teléfono de Casa:</label>
-        <input type="tel" id="telefono_casa" name="telefono_casa"><br>
+        <input [(ngModel)]="allData.Tel_Casa" type="tel" id="telefono_casa" name="telefono_casa"><br>
 
         <label  class="custom-label" for="telefono_celular">Teléfono Celular:</label>
-        <input type="tel" id="telefono_celular" name="telefono_celular" required><br>
+        <input [(ngModel)]="allData.Tel_Cel" type="tel" id="telefono_celular" name="telefono_celular" required><br>
 
         <div class="container">
-            <button  class="button"        type="submit">Enviar</button>
+            <button (click)="allRegis()" class="button"        type="submit">Enviar</button>
         </div>
     </form>
 </body>

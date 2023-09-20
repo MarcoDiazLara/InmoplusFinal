@@ -1,7 +1,7 @@
 <div class="container">
   <div class="logo">
     <div class="borM">
-  <img  class="imagen-izquierda"src="assets/logo.png" alt="Imagen" >
+  <img  (click) = "VolverIndex()" class="imagen-izquierda"src="assets/logo.png" alt="Imagen" >
   </div>
 </div>
   
@@ -24,26 +24,32 @@
           <span class="Y"></span>
            <div class="close">Close</div>
           </button>
-          <br>
-          <br>	
-          <br>
           <h1> ¿Con qué descripción te identificas? </h1> 
-          <br>
-           <h2> Elige la opción que mejor se adapte a tus gustos. </h2> 
-          <br>
-          <br>	
+          <h2>Elige la opción que mejor se adapte a tus gustos.</h2>
+          <div class="imagenes-horizontales">
+            <div class="imagen-container">
+                <img src="assets/Casa3.png" alt="Imagen 1">
+                <button (click) = "formulario()"  class="butto1">Particular Dueño Directo</button>
+            </div>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <div class="imagen-container">
+                <img src= "assets/arquitecto.png" alt="Imagen 2">
+                <button (click) = "formulario()"  class="butto1">Inmobiliaria Corredor</button>
+            </div>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <div class="imagen-container">
+                <img src="assets/agente.png" alt="Imagen 3">
+                <button  (click) = "formulario()" class="butto1">Constructora Desarrolladora</button>
+            </div>
+      
+          
          
 
-          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <img  class="ima" src="assets/Casa3.png">&nbsp;
+          
   
-          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; <img   (click) = "Regis()" class="ima" src="assets/arquitecto.png">
-          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; <img   (click) = "Regis()" class="ima" src="assets/agente.png">
-              <br>
-              <br>
-              <button (click) = "formulario()"  class="butto" >Particular <br> 
-                Dueño Directo</button>
-              <button   (click) = "Regis()"  class="butto">Particular<br> Dueño Directo</button>
-                  <button (click) = "Regis()"  class="butto" >Constructora <br> Desarrolladora</button>
+         
+              
+              
               
         </div>
       </div>

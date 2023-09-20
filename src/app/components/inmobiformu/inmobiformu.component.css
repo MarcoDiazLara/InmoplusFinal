@@ -1,0 +1,41 @@
+.horizontal-line {
+    border-top: 19px solid #07732D; /* Estilo de la línea */
+    margin: 35px 5; /* Margen superior e inferior opcional */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+
+    
+}
+
+.contenedor {
+    display: flex; /* Utilizamos flexbox para alinear en horizontal */
+    justify-content: space-between; /* Espacio entre los elementos */
+    border: 2px solid black; /* Estilo del borde: 2px de grosor, sólido y color negro */
+    padding: 10px; /* Espacio interior del div */
+
+}
+
+/* Estilos para los elementos */
+h1{
+    text-align:center;
+}
