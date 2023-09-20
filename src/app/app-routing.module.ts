@@ -16,8 +16,10 @@ import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.compo
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
 import { DetailsInmComponent } from './components/details-inm/details-inm.component';
-
-
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
+import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 
 //Rutas de navegacion 
 const routes: Routes = [
@@ -39,6 +41,10 @@ const routes: Routes = [
 {path:'inmobiformu', component: InmobiformuComponent},
 {path:'conoce', component: ConoceComponent},
 {path:'details-inm',component:DetailsInmComponent},
+{path: 'listainventarios', component:ListaInventariosComponent},
+{path: 'agregarinventario', component: AgregarInventariosComponent},
+{path: 'asignarreasignar', component: AsignarreasignarComponent},
+{path: 'privacidad', component:PrivacidadComponent},
 
 
 

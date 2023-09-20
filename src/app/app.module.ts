@@ -48,6 +48,9 @@ import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.com
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
+import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 
 
 
@@ -96,7 +99,10 @@ import { InformacionComponent } from './informacion/informacion.component';
      PrivacidadComponent,
      InmobiformuComponent, 
      ConoceComponent,
-     InformacionComponent
+     InformacionComponent,
+     ListaInventariosComponent,
+     AgregarInventariosComponent,
+     AsignarreasignarComponent
 
 
 
