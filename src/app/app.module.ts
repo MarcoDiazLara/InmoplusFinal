@@ -36,26 +36,18 @@ import { BarralateralmenuComponent } from './components/barralateralmenu/barrala
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
 
 
-
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
-import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
-import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
-import { DetailsInmComponent } from './components/details-inm/details-inm.component';
-import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
-import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
-import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
-import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
-import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
-
-
-import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
+import { DetailsInmComponent } from './components/details-inm/details-inm.component';
+import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
+import { DatehitoComponent } from './components/datehito/datehito.component';
+import { MasterlistComponent } from './components/masterlist/masterlist.component';
+import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
+import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
+import { ConoceComponent } from './components/conoce/conoce.component';
 
-
-
-import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
 
 
@@ -75,58 +67,15 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
     BarralateralmenuComponent,
     MainsectionComponent,
     WidgetComponent,
-    Brokerpage1Component,
-    BrokerperfilComponent,
-  PagenotfoundComponent,
-  CarruselComponent,
-   SearchComponent, 
-   DescargaComponent, 
-   FooterComponent, 
-   ContentComponent, 
-   RegistroComponent,
-    ConocenosComponent, 
-    ResultSearchComponent, 
-    Formu1Component, 
-    Formu2Component,
-     SubirimagenesComponent, 
-     Descarga1Component, 
-     Formu3Component, 
-     RegistrocompletoComponent,
-     BarralateralmenuComponent, 
-     WidgetComponent, 
-     MainsectionComponent,
-     Brokerpage1Component, 
-     ContactobrokerComponent,
-     ResultSearchComponent,
-     InmobiformuComponent,
-     DetailsInmComponent,
-     ContactobrokerlabuenaComponent,
-     ContactoexperienciaComponent,
-     EliminarperfilComponent,
-     AgregarInventariosComponent,
-     AsignarreasignarComponent,
 
+ 
 
-     ListaInventariosComponent,
-     PrivacidadComponent,
-
-     VisualtourComponent,
-
-
-     VisualtourComponent,
-
-
-
-
-
-   
-
-
-  ],
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent,
+],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule,
+    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
