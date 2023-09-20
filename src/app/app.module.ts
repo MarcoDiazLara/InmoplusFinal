@@ -51,6 +51,7 @@ import { InformacionComponent } from './informacion/informacion.component';
 import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
+import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
 
 
@@ -102,7 +103,8 @@ import { AsignarreasignarComponent } from './components/asignarreasignar/asignar
      InformacionComponent,
      ListaInventariosComponent,
      AgregarInventariosComponent,
-     AsignarreasignarComponent
+     AsignarreasignarComponent,
+     VisualtourComponent
 
 
 
