@@ -1,0 +1,5 @@
+.divider {
+    height: 20px; /* Altura de la línea */
+    background-color: #044504; /* Color de fondo de la línea (puedes cambiarlo) */
+    margin: 0; /* Margen cero para evitar espacios innecesarios */
+}
