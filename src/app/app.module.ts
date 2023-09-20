@@ -52,6 +52,9 @@ import { AgregarInventariosComponent } from './components/agregar-inventarios/ag
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 
 
+
+//puto dani
+
 @NgModule({
   declarations: [
     AppComponent,
