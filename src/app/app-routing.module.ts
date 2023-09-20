@@ -20,6 +20,12 @@ import { ListaInventariosComponent } from './components/lista-inventarios/lista-
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
+import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
+import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
+import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
+import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
+
+
 
 //Rutas de navegacion 
 const routes: Routes = [
@@ -45,6 +51,10 @@ const routes: Routes = [
 {path: 'agregarinventario', component: AgregarInventariosComponent},
 {path: 'asignarreasignar', component: AsignarreasignarComponent},
 {path: 'privacidad', component:PrivacidadComponent},
+{path: 'contactobroker',component:ContactobrokerComponent},
+{path: 'contactobroker2',component: ContactobrokerlabuenaComponent},
+{path: 'contactobroker3', component: ContactoexperienciaComponent},
+{path: 'eliminar',component:EliminarperfilComponent},
 
 
 

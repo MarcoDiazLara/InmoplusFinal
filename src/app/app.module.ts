@@ -48,6 +48,13 @@ import { ContactoexperienciaComponent } from './components/contactoexperiencia/c
 import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
+
+
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { PrivacidadComponent } from './components/privacidad/privacidad.component';
+
+
+
 import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
 
@@ -98,7 +105,16 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
      EliminarperfilComponent,
      AgregarInventariosComponent,
      AsignarreasignarComponent,
+
+
+     ListaInventariosComponent,
+     PrivacidadComponent,
+
      VisualtourComponent,
+
+
+     VisualtourComponent,
+
 
 
 
