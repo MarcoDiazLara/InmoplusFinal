@@ -20,9 +20,7 @@ import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
-
 import { Formu1Component } from './components/formu1/formu1.component';
-
 import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.component';
 import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
 import { EstatusComponent } from './components/estatus/estatus.component';
@@ -34,8 +32,6 @@ import { Formu4Component } from './components/formu4/formu4.component';
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
-
-
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
