@@ -98,7 +98,7 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
      EliminarperfilComponent,
      AgregarInventariosComponent,
      AsignarreasignarComponent,
-     VisualtourComponent
+     VisualtourComponent,
 
 
 
@@ -110,7 +110,7 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
+    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
