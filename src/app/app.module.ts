@@ -38,6 +38,10 @@ import { MainsectionComponent } from './components/mainsection/mainsection.compo
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 import { PrivacidadComponent } from './components/privacidad/privacidad.component';
 import { DetailsInmComponent } from './components/details-inm/details-inm.component';
+import { NotificacionesComponent } from './components/notificaciones/notificaciones.component';
+import { DatehitoComponent } from './components/datehito/datehito.component';
+import { MasterlistComponent } from './components/masterlist/masterlist.component';
+import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
 
 
 
@@ -58,7 +62,11 @@ import { DetailsInmComponent } from './components/details-inm/details-inm.compon
     BarralateralmenuComponent,
     MainsectionComponent,
     WidgetComponent,
-  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent,PrivacidadComponent
+
+ 
+
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent
+
 
 
 
