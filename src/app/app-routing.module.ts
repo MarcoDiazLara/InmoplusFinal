@@ -15,6 +15,7 @@ import { RegistrocompletoComponent } from './components/registrocompleto/registr
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
+import { DetailsInmComponent } from './components/details-inm/details-inm.component';
 
 
 
@@ -37,6 +38,8 @@ const routes: Routes = [
 {path:'brokerpage1',component:Brokerpage1Component},
 {path:'inmobiformu', component: InmobiformuComponent},
 {path:'conoce', component: ConoceComponent},
+{path:'details-inm',component:DetailsInmComponent},
+
 
 
 
