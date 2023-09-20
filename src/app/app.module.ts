@@ -47,6 +47,7 @@ import { MasterlistComponent } from './components/masterlist/masterlist.componen
 import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
+import { InformacionComponent } from './informacion/informacion.component';
 
 
 
@@ -94,7 +95,8 @@ import { ConoceComponent } from './components/conoce/conoce.component';
      FieldandVarComponent,
      PrivacidadComponent,
      InmobiformuComponent, 
-     ConoceComponent
+     ConoceComponent,
+     InformacionComponent
 
 
 
