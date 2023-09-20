@@ -50,13 +50,13 @@ import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabue
 import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
 import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
-
-
+import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
 //puto dani
 
 @NgModule({
   declarations: [
+    VisualtourComponent,
     AppComponent,
     HomeComponent,
     Pagina1Component,
@@ -79,11 +79,32 @@ import { AsignarreasignarComponent } from './components/asignarreasignar/asignar
     ContactobrokerComponent,
     AgregarInventariosComponent,
     AsignarreasignarComponent,
-
-
- 
-
-  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent,
+  PagenotfoundComponent
+  ,CarruselComponent, 
+  SearchComponent, 
+  DescargaComponent, 
+  FooterComponent, 
+  ContentComponent, 
+  RegistroComponent, 
+  ConocenosComponent, 
+  ResultSearchComponent, 
+  Formu1Component, 
+  Formu2Component, 
+  SubirimagenesComponent, 
+  Descarga1Component, 
+  Formu3Component, 
+  RegistrocompletoComponent,
+  BarralateralmenuComponent, 
+  WidgetComponent, 
+Brokerpage1Component, 
+DetailsInmComponent, 
+NotificacionesComponent, 
+DatehitoComponent, 
+MasterlistComponent, 
+FieldandVarComponent,
+PrivacidadComponent,
+InmobiformuComponent, 
+ConoceComponent,
 ],
   imports: [
     BrowserModule,
