@@ -103,4 +103,21 @@ app.put('/usuarios/alldata', function(request, response) {
 })
 
 
+app.get('/inmuebles/tipo', (request, response) => {
+    
+
+    const query = `SELECT * FROM tipo_inmueble`
+    connection.query(query, (error, resultado) => {
+        if(error) return console.error(error.message)
+
+        if(resultado.length > 0) {
+            response.json(resultado)
+			
+        } else {
+            response.json(`No hay registros`)
+			
+        }
+    })
+})
+
 app.listen(3000);

@@ -20,9 +20,7 @@ import { ContentComponent } from './components/content/content.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { ConocenosComponent } from './components/conocenos/conocenos.component';
 import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
-
 import { Formu1Component } from './components/formu1/formu1.component';
-
 import { MenuUsuarioComponent } from './components/menu-usuario/menu-usuario.component';
 import { StesProgressComponent } from './components/stes-progress/stes-progress.component';
 import { EstatusComponent } from './components/estatus/estatus.component';
@@ -34,8 +32,6 @@ import { Formu4Component } from './components/formu4/formu4.component';
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
-
-
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
@@ -47,12 +43,20 @@ import { MasterlistComponent } from './components/masterlist/masterlist.componen
 import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
+import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
+import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
+import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
+import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
+import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
+import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
-
-
+//puto dani
 
 @NgModule({
   declarations: [
+    VisualtourComponent,
     AppComponent,
     HomeComponent,
     Pagina1Component,
@@ -68,11 +72,47 @@ import { ConoceComponent } from './components/conoce/conoce.component';
     MainsectionComponent,
     WidgetComponent,
 
+
  
 
-  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent,BarralateralmenuComponent,BrokerperfilComponent
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent,BarralateralmenuComponent,
 
     
+    BrokerperfilComponent,
+    ListaInventariosComponent,
+    EliminarperfilComponent,
+    ContactoexperienciaComponent,
+    ContactobrokerlabuenaComponent,
+    ContactobrokerComponent,
+    AgregarInventariosComponent,
+    AsignarreasignarComponent,
+  PagenotfoundComponent
+  ,CarruselComponent, 
+  SearchComponent, 
+  DescargaComponent, 
+  FooterComponent, 
+  ContentComponent, 
+  RegistroComponent, 
+  ConocenosComponent, 
+  ResultSearchComponent, 
+  Formu1Component, 
+  Formu2Component, 
+  SubirimagenesComponent, 
+  Descarga1Component, 
+  Formu3Component, 
+  RegistrocompletoComponent,
+  BarralateralmenuComponent, 
+  WidgetComponent, 
+Brokerpage1Component, 
+DetailsInmComponent, 
+NotificacionesComponent, 
+DatehitoComponent, 
+MasterlistComponent, 
+FieldandVarComponent,
+PrivacidadComponent,
+InmobiformuComponent, 
+ConoceComponent,
+
 ],
   imports: [
     BrowserModule,
