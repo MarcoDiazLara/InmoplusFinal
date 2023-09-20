@@ -25,7 +25,7 @@ export class Pagina2Component {
  }
 
  login(){
-  this.httpclient.post('http://localhost:3000/auth',this.respuesta,this.res).subscribe(()=> {this.router.navigate(["/pagina1"])});
+  this.httpclient.post('http://localhost:3000/auth',this.respuesta,this.res).subscribe(()=> {this.router.navigate(["/registrocompleto"])});
  }
  
 }
