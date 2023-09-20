@@ -45,6 +45,7 @@ import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.compo
 import { DetailsInmComponent } from './components/details-inm/details-inm.component';
 import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
 import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
+import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
 
 
 
@@ -92,7 +93,8 @@ import { ContactoexperienciaComponent } from './components/contactoexperiencia/c
      InmobiformuComponent,
      DetailsInmComponent,
      ContactobrokerlabuenaComponent,
-     ContactoexperienciaComponent
+     ContactoexperienciaComponent,
+     EliminarperfilComponent
   
    
 
