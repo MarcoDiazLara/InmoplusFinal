@@ -1,30 +1,82 @@
 <app-barralateralmenu></app-barralateralmenu>
 <app-mainsection>
-    <div class="info_profile">
-        <h2>Perfil</h2>
-        <div class="info_cuenta">
-            <p>Pedrito perez</p>
-            <img src="#" alt="">
-        </div>
+    <div id="containerperfil">
     </div>
-    <div class="main_container">
-        <div class="green_Bar">
-
-        </div>
-        <div class="edit_section">
-            <div class="option_profile">
-                <div class="image_profile">
-                    <img src="" alt="">
-                </div>
-                <div class="name_profile">
-                    <p>Pedrito Perez</p>
-                </div>
-                <div class="menu_options">
-                    <ul>
-                        li<
-                    </ul>
-                </div>
+    <div id="containerbarra">
+    </div>
+    <div class="main_section">
+        <div id="menuperfil">
+            <div id="fotoperfil">
+            <img id="foto"src="../../../assets/perfil.png">
+            </div>
+            <h4>Juanito Perez</h4>
+            <div>
+                <ul>
+                    <li><a href="#">Informacion Personal</a></li>
+                    <li><a href="#">Informacion de contacto</a></li>
+                    <li><a href="#">Tu experiencia</a></li>
+                    <li><a href="#">Eliminar Perfil</a></li>
+                </ul>
             </div>
         </div>
+
+        <div id="datosperfil">
+            <table >
+    
+                <tr>
+                    <th>
+                        <h3 id="ordenatext">Nombre</h3>
+                    </th>
+                    <th >
+                        <h3 id="ordenatext">Apellido</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="text" size="30" maxlength="100" value="" name="nombre" placeholder="Pedrito">
+                    </th>
+                    <th>
+                        <input type="text" size="30" maxlength="60" value="" name="nombre" placeholder="Perez">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3 id="ordenatext">Fecha de Nacimiento</h3>
+                    </th>
+                    <th>
+                        <h3 id="ordenatext">Genero</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input  type="text" size="30" maxlength="60" value="" name="nombre">
+                    </th>
+                    <th>
+                        <label><input class="odernacheck" type="checkbox" id="cbox1" value="first_checkbox" /> M </label>
+                        <label><input type="checkbox" id="cbox1" value="first_checkbox" /> F </label
+                    >
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h3 id="ordenatext2">Validacion de identidad</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button id="buttonsube" type="button">Sube tu Documeto</button>
+                    </th>
+                </tr>
+                <br>
+                <tr>
+                    <th>
+                        <button type="button">Actualizar</button>
+                    </th>
+                </tr>
+            </table>
+        </div>
     </div>
+    
+    
+    
 </app-mainsection>

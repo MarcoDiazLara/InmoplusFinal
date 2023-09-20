@@ -34,13 +34,16 @@ import { Formu4Component } from './components/formu4/formu4.component';
 import { RegistrocompletoComponent } from './components/registrocompleto/registrocompleto.component';
 import { BarralateralmenuComponent } from './components/barralateralmenu/barralateralmenu.component';
 import { BrokerperfilComponent } from './components/brokerperfil/brokerperfil.component';
-import { ResultSearchComponent } from './components/resultsearch/resultsearch.component';
+
 
 
 import { WidgetComponent } from './components/widget/widget.component';
 import { MainsectionComponent } from './components/mainsection/mainsection.component';
 import { Brokerpage1Component } from './components/brokerpage1/brokerpage1.component';
 import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
+import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
+import { DetailsInmComponent } from './components/details-inm/details-inm.component';
+
 
 
 
@@ -83,7 +86,9 @@ import { ContactobrokerComponent } from './components/contactobroker/contactobro
      MainsectionComponent,
      Brokerpage1Component, 
      ContactobrokerComponent,
-     ResultSearchComponent
+     ResultSearchComponent,
+     InmobiformuComponent,
+     DetailsInmComponent
    
 
 
