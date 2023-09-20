@@ -47,8 +47,13 @@ import { MasterlistComponent } from './components/masterlist/masterlist.componen
 import { FieldandVarComponent } from './components/fieldand-var/fieldand-var.component';
 import { InmobiformuComponent } from './components/inmobiformu/inmobiformu.component';
 import { ConoceComponent } from './components/conoce/conoce.component';
-
-
+import { ListaInventariosComponent } from './components/lista-inventarios/lista-inventarios.component';
+import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
+import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
+import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
+import { ContactobrokerComponent } from './components/contactobroker/contactobroker.component';
+import { AgregarInventariosComponent } from './components/agregar-inventarios/agregar-inventarios.component';
+import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 
 
 @NgModule({
@@ -67,6 +72,15 @@ import { ConoceComponent } from './components/conoce/conoce.component';
     BarralateralmenuComponent,
     MainsectionComponent,
     WidgetComponent,
+    BrokerperfilComponent,
+    ListaInventariosComponent,
+    EliminarperfilComponent,
+    ContactoexperienciaComponent,
+    ContactobrokerlabuenaComponent,
+    ContactobrokerComponent,
+    AgregarInventariosComponent,
+    AsignarreasignarComponent,
+
 
  
 
