@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
@@ -10,19 +10,25 @@ import { HttpClient } from '@angular/common/http';
 })
 
 
-export class Formu1Component {
+export class Formu1Component{
   constructor(private router: Router,
     private httpclient: HttpClient){}
-    public xd: any;
-
+    public xd: any[] = [];
+    public hola: string[] = [];
+    
     
 
-  For4(){ 
-    //this.router.navigate(['/formu4']);  
-    this.httpclient.get('http://localhost:3000/inmuebles/tipo').subscribe(data => {this.xd = data});
-    console.log(this.xd);
+    ngOnInit(){ 
+    this.httpclient.get<any[]>('http://localhost:3000/inmuebles/tipo').subscribe(data => {this.xd = data});
+    for(let i = 0 ; i < this.xd.length ; i++){
+      this.hola[i] = this.xd[i].Tipo_Inmueble;
+  }
+  console.log(this.hola);
   }
  
+  For4(){
+
+  }
   
     name: string = 'Pedro';
 
