@@ -209,4 +209,142 @@ select:hover {
   butto:active {
     transform: scale(0.9);
   }
+
+  .insertar-dialog h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.registrar-dialog{
+  width: 60%;
+  height: 50vh;
+  background-color: #95b0d124;
+  margin-left: 15%
+}
+
+
+.registrar-dialog-content mat-form-field {
+    background-color: transparent !important;
+    width: 100%;
+    margin: 10px 0px;
+    /* input {
+        color: black;
+    } */
+}
+
+.registrar-dialog-content input {
+color: black;
+}
+.registrar-dialog-content  button {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3% !important;
+}
+
+.registrar-dialog-content  button:disabled {
+span {
+    color: #9a8d8d;
+}
+}
+::ng-deep {
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: #0c6291f7 !important;
+}
+}
+
+@keyframes spinner {
+to {
+    transform: rotate(360deg);
+}
+}
+
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.registrar-dialog h1 {
+  text-align: center;
+font-weight: 500;
+  }
+  .registrar-dialog-content mat-form-field {
+background-color: transparent !important;
+   width: 100%;
+   margin: 10px 0px;
+  }
+  .registrar-dialog-content mat-form-field input {
+   color: black;
+  }
+  .registrar-dialog-content button {
+   display: block;
+   width: 100%;
+   margin: auto;
+   margin-bottom: 3% !important;
+  }
   
+
+  .insertar-dialog-content  button {
+     display: block;
+     width: 100%;
+     margin: auto;
+     margin-bottom: 3% !important;
+    }
+    .insertar-dialog-content  button:disabled {
+     span {
+     color: #9a8d8d;
+     }
+    }
+    ::ng-deep {
+     .mat-form-field.mat-focused .mat-form-field-label {
+     color: #0c6291f7 !important;
+     }
+    }
+    @keyframes spinner {
+     to {
+     transform: rotate(360deg);
+     }
+    }
+    .spinner:before {
+     content: '';
+     box-sizing: border-box;
+     position: absolute;
+     top: 50%;
+     left: 36%;
+     width: 20px;
+     height: 20px;
+     margin-top: -10px;
+     margin-left: -10px;
+     border-radius: 50%;
+     border: 2px solid #ffffff;
+     border-top-color: #0c6291f7;
+     animation: spinner 0.6s ease-out infinite;
+    }

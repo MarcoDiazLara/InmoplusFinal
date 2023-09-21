@@ -1,6 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { HttpService } from 'src/app/servicios/http/http.service';
+import {MatInputModule} from '@angular/material/input';
+import { Inmuebles } from 'src/app/servicios/interfaces/interface';
+
+
 
 
 @Component({
@@ -10,27 +17,54 @@ import { HttpClient } from '@angular/common/http';
 })
 
 
-export class Formu1Component{
-  constructor(private router: Router,
-    private httpclient: HttpClient){}
-    public xd: any[] = [];
-    public hola: string[] = [];
-    
-    
-
-    ngOnInit(){ 
-    this.httpclient.get<any[]>('http://localhost:3000/inmuebles/tipo').subscribe(data => {this.xd = data});
-    for(let i = 0 ; i < this.xd.length ; i++){
-      this.hola[i] = this.xd[i].Tipo_Inmueble;
-  }
-  console.log(this.hola);
-  }
- 
-  For4(){
-
-  }
+export class Formu1Component implements OnInit{
   
-    name: string = 'Pedro';
+  inmuebles: Inmuebles[] =[];
+  inmueble!: Inmuebles;
+  formInmueble!:FormGroup;
+  loading = false;
+
+ 
+  constructor(private router: Router,
+    private httpclient: HttpClient,
+    private formBuilder: FormBuilder,
+    private httpService: HttpService,){}
+    
+ 
+    ngOnInit(){ 
+
+    this.obtenerDatosInmuebles();
+  
+    this.formInmueble = this.formBuilder.group({
+     Id_Tipo_Inmueble: ['',[Validators.required]]
+    })
+  }
+
+  obtenerDatosInmuebles(){
+ this.httpService.tipoInmueble().subscribe((resp:any)=>{
+  if(resp !== 201){
+    console.log(resp);
+    this.inmueble = resp[0].Id_Tipo_Inmueble;
+    this.inmuebles = resp;
+  }
+ },(err)=>{
+  console.log(err);
+ })
+}
+
+sendData(){
+let idTipoInmo =  this.formInmueble.value.Id_Tipo_Inmueble;
+    console.log("idTipo: "+ idTipoInmo);
+    this.httpService.insertarDatosUsuario("marco",13456).subscribe((data: any) => {
+      if(data == 1){
+        console.log("Se inserto");
+      }else{
+        console.log("Error al insertar");
+      }
+    });
+
+}
+ 
 
 
 

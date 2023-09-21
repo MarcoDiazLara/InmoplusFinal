@@ -24,13 +24,16 @@ import { ContactobrokerComponent } from './components/contactobroker/contactobro
 import { ContactobrokerlabuenaComponent } from './components/contactobrokerlabuena/contactobrokerlabuena.component';
 import { ContactoexperienciaComponent } from './components/contactoexperiencia/contactoexperiencia.component';
 import { EliminarperfilComponent } from './components/eliminarperfil/eliminarperfil.component';
+import { AppModule } from './app.module';
+import { AppComponent } from './app.component';
 
 
 
 //Rutas de navegacion 
 const routes: Routes = [
+  {path:'',component:AppComponent},
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
-{path:'',redirectTo:'pagina1',pathMatch:'full'},
+//{path:'',redirectTo:'pagina1',pathMatch:'full'},
 //aca defines los nombres de las rutas que vas a visitar, con la de alma le pones {path: "Login", component: LoginComponent}
 {path:'home',component:HomeComponent},
 {path:'pagina1', component:Pagina1Component },
@@ -55,12 +58,7 @@ const routes: Routes = [
 {path: 'contactobroker2',component: ContactobrokerlabuenaComponent},
 {path: 'contactobroker3', component: ContactoexperienciaComponent},
 {path: 'eliminar',component:EliminarperfilComponent},
-
-
-
-
-
-{path:'**', component:PagenotfoundComponent},
+{path:'**', component:PagenotfoundComponent}
 
 
 

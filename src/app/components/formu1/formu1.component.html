@@ -1,4 +1,4 @@
-
+<!--
 <app-menu-usuario></app-menu-usuario>
 <div class="main-container">
     <div class="sub_container">
@@ -49,6 +49,8 @@
     </select>
   </div>
 
+  
+
     <button (click) = "ngOnInit()"class="butto">Continuar</button>
    </form>
  
@@ -56,5 +58,32 @@
 </div>
 </div>
 
+<app-footer></app-footer>-->
 
-<app-footer></app-footer>
+
+
+<div class="registrar-dialog">
+    <h1 mat-dialog-title>FORMULARIO</h1>
+    <div mat-dialog-content>
+      <form class="registrar-dialog-content" [formGroup]="formInmueble" (click)="sendData()">
+        <mat-form-field appearance="fill">
+          <mat-label>
+           <mat-icon>house</mat-icon> <b>Seleccione una tipo de inmueble</b></mat-label>
+          <mat-select formControlName="Id_Tipo_Inmueble">
+           <mat-option *ngFor="let inmo of inmuebles" value="{{ inmo.Id_Tipo_Inmueble}}">{{ inmo.Tipo_Inmueble }}</mat-option>
+          </mat-select>
+          <mat-error *ngIf="this.formInmueble.get('idTipoInmueble')?.hasError('required')">
+           Elija una opción es <strong>obligatorio</strong>
+          </mat-error>
+         </mat-form-field>
+         <button mat-button type="submit" [class.spinner]="loading" [disabled]="loading" color="secondary">
+          <span>{{ loading ? 'Cargando...' : 'Registrar' }}</span>
+          </button><br>
+          
+    </form>
+
+    
+   
+  </div>
+  </div>
+  
