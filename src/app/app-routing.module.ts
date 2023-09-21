@@ -31,9 +31,9 @@ import { AppComponent } from './app.component';
 
 //Rutas de navegacion 
 const routes: Routes = [
-  {path:'',component:AppComponent},
+ 
   //esta linea de codigo es la encargada de llevarte a la pagina principal cuando no tienes una ruta que seguir
-//{path:'',redirectTo:'pagina1',pathMatch:'full'},
+{path:'',redirectTo:'pagina1',pathMatch:'full'},
 //aca defines los nombres de las rutas que vas a visitar, con la de alma le pones {path: "Login", component: LoginComponent}
 {path:'home',component:HomeComponent},
 {path:'pagina1', component:Pagina1Component },
