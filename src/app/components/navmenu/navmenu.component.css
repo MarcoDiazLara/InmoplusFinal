@@ -69,6 +69,44 @@ border: 0px solid white;
 
 /*  boton de buscar  */
 
+
+.line {
+  width: 30px;
+  height: 3px;
+  color: #044504; /* Cambia este color según tus preferencias */
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.menu-button.active .line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.menu-button.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-button.active .line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+.menu-horizontal li a {
+  color: #333; /* Color de texto predeterminado */
+  text-decoration: none; /* Eliminar subrayado de enlaces */
+  transition: color 0.3s; /* Animación de transición para el cambio de color */
+}
+
+ .menu-horizontal li a:hover {
+  color: #95BF39; /* Cambia el color del texto cuando el mouse pasa sobre el enlace */
+}
+
+
+.boton2 {
+border: 0px solid 	#FFFFFF;
+margin-top: 8px;
+
+}
+
+.butto {
 .button {
   font-size: 13px;
   letter-spacing: 2px;
@@ -220,4 +258,3 @@ border: 0px solid white;
       margin-bottom: 0;
   }
 }
-
