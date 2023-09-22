@@ -65,6 +65,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 
 import {MatSelectModule} from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatInputModule} from '@angular/material/input';
 
 
 
@@ -140,6 +141,7 @@ ConoceComponent,
     ReactiveFormsModule,
     MatSelectModule,
     BrowserAnimationsModule,
+    MatInputModule,
     
   ],
   providers: [],
