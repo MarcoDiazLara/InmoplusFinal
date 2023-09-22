@@ -157,7 +157,7 @@ background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor sobre 
 .line {
   width: 30px;
   height: 3px;
-  c: #044504; /* Cambia este color según tus preferencias */
+  color: #044504; /* Cambia este color según tus preferencias */
   margin: 3px 0;
   transition: 0.4s;
 }
