@@ -2,7 +2,7 @@
     width            : 100%;
     height           : 90vh;
     background-repeat: no-repeat;
-   /*  background-image : url('assets/fondo.jpg');*/
+    background-image : url('../../../assets/fondo.jpg');
     background-size  : 100% 100%;
 }
 
@@ -13,10 +13,9 @@
     margin-top: 12%;
     float     : left;
     background: rgba(0, 0, 0, 0.3);
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
+
 
 .contendordescar h4 {
     font-weight: bold;
@@ -24,7 +23,9 @@
     color: #ffffff;
     text-align: center;
     margin-bottom: 5%;
+    margin-top: 9%;
 }
+
 
 .contendordescar h3 {
     font-weight: 300;
@@ -38,7 +39,7 @@
     content         : "";
     width           : 268px;
     height          : 11px;
-    background-color: #044504;
+    background-color: #264D5E;
     display         : block;
     margin          : 0px 0px 51px calc((87% - 93px) * 0.5);
 }
@@ -56,16 +57,15 @@
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: black;
+    color: #264D5E;
+
 }
 
 .subcribete {
     width      : 90%;
-    height     : 45vh;
+    height     : auto;
     margin-top : 8%;
-    margin-left: 5%;
-    text-align: center;
-   
+    margin-left: 5%;   
 }
 
 
@@ -75,80 +75,83 @@
     float        : left;
     margin-left: 1.5%;
     margin-right: 3%;
-    border-radius: 50%;
-
-    
-
+    background-color: #575A5C; 
 }
-
-.descaragente img {
+.descaragente img{
     width: 100%;
-    height: 100%;
+    height: 100%;   
 }
 
-.descaragente button {
-    width: 50%;
-    height: 40px;
-    border: 1px solid #044504;
-    background-color: #044504;
-    color: #ffffff;
-    border-radius: 30em;
-    margin-top: 5%;
-    
+.descargaagentetext{
+    width        : 30%;
+    height       : 38vh;
+    float        : left;
+    margin-left: 1.5%;
+    margin-right: 3%;
+    text-align: center;
+    margin-top: 3%;
 }
 
-.descaragente h4 {
+.descargaagentetext h4 {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-style: italic;
-    color: #044504;
+    color: #264D5E;
+    
 }
 
-.descaragente h3 {
-    font-size: 15px;
+.descargaagentetext h3 {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: #044504;
+    color: #264D5E;
 }
+
+.descargaagentetext button{
+    background-color: #264D5E;
+    color: #ffffff;
+    }
 
 
 .descarga {
     width        : 30%;
     height       : 38vh;
     float        : left;
+    
 }
-
 .descarga img {
     width: 100%;
     height: 100%;
 }
 
-.descarga button {
-    width: 50%;
-    height: 40px;
-    border: 1px solid #044504;
-    background-color: #044504;
-    color: #ffffff;
-    border-radius: 30em;
-    margin-top: 5%;
+.descargatext{
+    width        : 30%;
+    height       : 38vh;
+    float        : left;
+    text-align: center;
+    margin-top: 3%;    
 }
 
-.descarga h4 {
+.descargatext h4 {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-style: italic;
-    color: #044504;
+    color: #264D5E;
 }
 
-
-.descarga h3 {
+.descargatext h3 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: #044504;
+    color: #264D5E;
+    text-align: center;
 }
+
+.descargatext button{
+    background-color: #264D5E;
+    color: #ffffff;
+    }
+
 
 .descarbroker {
     width           : 30%;
@@ -156,38 +159,46 @@
     float           : left;
     margin-left: 3%;
     margin-right: 1.5%;
-
 }
-
 .descarbroker img {
     width: 100%;
     height: 100%;
-
 }
 
-.descarbroker button {
-    width: 50%;
-    height: 40px;
-    border: 1px solid #044504;
-    background-color: #044504;
-    color: #ffffff;
-    border-radius: 30em;
-    margin-top: 5%;
+.descarbrokertext{
+    width           : 30%;
+    height          : 38vh;
+    float           : left;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    text-align: center;
+    margin-top: 3%;
+}
+.descarbrokertext button{
+background-color: #264D5E;
+color: #ffffff;
 }
 
-.descarbroker h4 {
+
+
+.descarbrokertext h4 {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-style: italic;
-    color: #044504;
+    color: #264D5E;
 }
 
 
-.descarbroker h3 {
-    font-size: 15px;
+.descarbrokertext h3 {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: #044504;
+    color: #264D5E;
+    text-align: center;
 }
+
+
+
+
+
 

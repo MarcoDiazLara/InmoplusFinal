@@ -90,6 +90,13 @@ import {MatInputModule} from '@angular/material/input';
     BarralateralmenuComponent,
     MainsectionComponent,
     WidgetComponent,
+
+
+ 
+
+  PagenotfoundComponent,CarruselComponent, SearchComponent, DescargaComponent, FooterComponent, ContentComponent, RegistroComponent, ConocenosComponent, ResultSearchComponent, Formu1Component, Formu2Component, SubirimagenesComponent, Descarga1Component, Formu3Component, RegistrocompletoComponent,BarralateralmenuComponent, WidgetComponent, MainsectionComponent,Brokerpage1Component, DetailsInmComponent, NotificacionesComponent, DatehitoComponent, MasterlistComponent, FieldandVarComponent,PrivacidadComponent,InmobiformuComponent, ConoceComponent,BarralateralmenuComponent,
+
+    
     BrokerperfilComponent,
     ListaInventariosComponent,
     EliminarperfilComponent,
@@ -124,6 +131,7 @@ FieldandVarComponent,
 PrivacidadComponent,
 InmobiformuComponent, 
 ConoceComponent,
+
 ],
   imports: [
     CommonModule,
