@@ -103,7 +103,7 @@ app.put('/usuarios/alldata', function(request, response) {
 })
 
 
-app.get('/inmuebles/tipo', (request, response) => {
+app.get('/inmuebles/tipo', ( response) => {
     
 
     const query = `SELECT * FROM tipo_inmueble`

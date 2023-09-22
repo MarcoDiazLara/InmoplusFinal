@@ -1,73 +1,85 @@
 <div class="container">
   <div class="logo">
     <div class="borM">
-  <img  (click) = "VolverIndex()" class="imagen-izquierda"src="assets/logo.png" alt="Imagen" >
-  </div>
-</div>
-  
-  <div class="contenedor_enlaces">
-  <ul class="menu-horizontal">
-    <li><a href="#">Comprar</a></li>
-    <li><a href="#">Rentar</a></li>
-    <li><a href="#">Servicios</a></li>
-    <!-- Agrega más opciones de menú si es necesario -->
-  </ul>
-  <div class="MovimientoBoton">
-    <div class="container">
-      <button  class="button" (click)="mostrarVentana()">Ofrecer</button>
-    
-      <!-- Ventana flotante -->
-      <div class="ventana" [ngClass]="{'visible': ventanaVisible}">
-        <div class="contenido">
-          <button  class="button4"(click)="cerrarVentana()">
-            <span class="X"></span>
-          <span class="Y"></span>
-           <div class="close">Close</div>
-          </button>
-          <h1> ¿Con qué descripción te identificas? </h1> 
-          <h2>Elige la opción que mejor se adapte a tus gustos.</h2>
-          <div class="imagenes-horizontales">
-            <div class="imagen-container">
-                <img src="assets/Casa3.png" alt="Imagen 1">
-                <button (click) = "formulario()"  class="butto1">Particular Dueño Directo</button>
-            </div>
-            &nbsp; &nbsp; &nbsp; &nbsp;
-            <div class="imagen-container">
-                <img src= "assets/arquitecto.png" alt="Imagen 2">
-                <button (click) = "xdxd()"  class="butto1">Inmobiliaria Corredor</button>
-            </div>
-            &nbsp; &nbsp; &nbsp; &nbsp;
-            <div class="imagen-container">
-                <img src="assets/agente.png" alt="Imagen 3">
-                <button  (click) = "formulario()" class="butto1">Constructora Desarrolladora</button>
-            </div>
-      
-          
-         
 
-          
-  
-         
-              
-              
-              
-        </div>
-      </div>
-    </div>
+  <img  (click) = "VolverIndex()" class="imagen-izquierda"src="assets/logo3.png" alt="Imagen" >
+
    
 
+  </div>
+</div>
+
+<div class="contenedor_enlaces">
+    <div class="menu">
+         <ul>
+            <li class="dropdown">
+                <a href="#">Adquirir</a>
+                <div class="dropdown-content">
+                    <a href="#">Opción 1</a>
+                    <a href="#">Opción 2</a>
+                    <a href="#">Opción 3</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Alquilar</a>
+                <div class="dropdown-content">
+                    <a href="#">Opción A</a>
+                    <a href="#">Opción B</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Momentáneo</a>
+                <div class="dropdown-content">
+                    <a href="#">Opción X</a>
+                    <a href="#">Opción Y</a>
+                    <a href="#">Opción Z</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Crecimientos</a>
+                <div class="dropdown-content">
+                    <a href="#">Opción A1</a>
+                    <a href="#">Opción A2</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Atención</a>
+                <div class="dropdown-content">
+                    <a href="#">Opción 1A</a>
+                    <a href="#">Opción 2A</a>
+                    <a href="#">Opción 3A</a>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="MovimientoBoton">
+          <div class="container">
+            <button  class="button" (click)="mostrarVentana()">Ofrecer</button>
+    
+            <div class="boton2">
+              <button class="butto"  (click)="navegacion()" >Ingresar</button>
+              </div> 
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
-
-</div>
-  
-     <!--   <img src="assets/user.png" class="imagen-estilo"> -->
-       <!-- Creacion2  -->
-    <div class="boton2">
-    <button class="butto"  (click)="navegacion()" >Ingresar</button>
-    </div> 
-
-
-</div>
-
 

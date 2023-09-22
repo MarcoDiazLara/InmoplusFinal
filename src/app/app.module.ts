@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -52,7 +53,24 @@ import { AgregarInventariosComponent } from './components/agregar-inventarios/ag
 import { AsignarreasignarComponent } from './components/asignarreasignar/asignarreasignar.component';
 import { VisualtourComponent } from './components/visualtour/visualtour.component';
 
-//puto dani
+
+//button
+import { MatButtonModule} from '@angular/material/button';
+import { MatDividerModule} from '@angular/material/divider';
+import {MatIconModule} from '@angular/material/icon';
+//dialog
+import {MatDialogModule} from '@angular/material/dialog';
+//form
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+import {MatSelectModule} from '@angular/material/select';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -95,7 +113,7 @@ import { VisualtourComponent } from './components/visualtour/visualtour.componen
   RegistroComponent, 
   ConocenosComponent, 
   ResultSearchComponent, 
-  Formu1Component, 
+  Formu1Component,
   Formu2Component, 
   SubirimagenesComponent, 
   Descarga1Component, 
@@ -115,11 +133,25 @@ ConoceComponent,
 
 ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule,NgImageSliderModule, FormsModule, HttpClientModule
+    MatMenuModule,
+    NgImageSliderModule,
+    FormsModule,
+    HttpClientModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatIconModule,
+    MatDialogModule, 
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
