@@ -1,19 +1,23 @@
+<form  [formGroup]="formLogin">
 <div class="  contenedorbase">
-
+    
+    
     <div class="contenedorlogo ">
         <img src=img src="assets/app.png">
     </div>
-
+    
     <div class=" contenedortexto">
         <h3> Usuario o Correo Electronico</h3>
         <div>
-            <input  [(ngModel)]="respuesta.username" type="text" placeholder="ejemplo@correoejemplo.com">
+            
+            <input matInput formControlName="correo_Electronico" type="text" placeholder="ejemplo@correoejemplo.com">
+        
         </div>
     </div>
 
     <div class=" contenedortexto">
         <h3>Contraseña</h3>
-        <input  [(ngModel)]="respuesta.password" type="password" placeholder="Contraseña" >
+        <input matInput formControlName="Password" type="password" placeholder="Contraseña" >
     </div>
 
 
@@ -26,7 +30,7 @@
             <label class="contenedorbuttontext">Recordar Contraseña</label>
         </div>
         <div class="BotonLast">
-            <button (click)="login()" name="button">Iniciar</button>
+            <button (click)="loginp()" name="button">Iniciar</button>
         </div>
     </div>
 
@@ -84,8 +88,9 @@
             <button (click) = "Regis()" name="button"> Registrate aqui </button>
         </div>
     </div>
+   
 </div>
-
+</form>
 <div class="contenedorcopyright">
     <label> © 2018 InmoPlus. All rights reserved DTI Consultores </label>
 </div>s

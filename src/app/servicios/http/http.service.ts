@@ -16,6 +16,12 @@ export class HttpService {
     return this.httpclient.post(this.url + 'mostrarTipoInmuebles.php', params, { headers });
   }
 
+  iniciarSesion(correo_Electronico: string, Password: string){
+    let headers: any = new HttpHeaders({ 'Content-Type': 'application/x-www-form-urlencoded' });
+    let params = 'correo_Electronico'+ correo_Electronico + 'Password' + Password;
+    return this.httpclient.post(this.url + 'autenticacion.php', params, { headers });
+  }
+
 insertarDatosInmueble(idTipoInmueble:number ){
   
     let headers: any = new HttpHeaders({ 'Content-Type': 'application/x-www-form-urlencoded' });
