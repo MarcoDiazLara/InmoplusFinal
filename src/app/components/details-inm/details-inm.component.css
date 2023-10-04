@@ -38,7 +38,7 @@
 /* aqui van los iconos traidos desde internet */
 
 .backarrow{
-    background: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg') no-repeat center center / contain;
+    background: url('https://api.iconify.design/ei/arrow-up.svg?color=%38B6E3&rotate=270deg') no-repeat center center / contain;
     content: url('https://api.iconify.design/ei/arrow-up.svg?color=%2307732d&rotate=270deg');
     background-size: cover; /* Tamaño de la imagen */
     background-position: center; /* Posición de la imagen */

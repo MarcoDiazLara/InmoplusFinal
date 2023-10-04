@@ -1,12 +1,13 @@
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<app-navmenu></app-navmenu>
+
 <div class="divider"></div>
 
 <!-- Aqui ya va el contenido de los respectivos inmuebles -->
 <div class="detalles">
     <div class="d-flex align-items-center">
-        <button (click)="regresa()" class="btn btn-outline-success me-2"><img class="backarrow"> Regresar</button>
+        <button  mat-raised-button color="accent"><img class="backarrow">Regresar</button>
         <h2 class="mb-0 ml-3">Nombre del Inmueble</h2>
     </div>
     
@@ -15,23 +16,95 @@
             <div class="col-md-6">
               <!-- Tu contenido dentro del div -->
                 <div class="Imgmuestra">
-                    <img src="assets/6.jpg">
-                    <h2> <img class="map">(insertar carrusel con imagenes desde la base de datos)</h2>
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/20.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/20.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/src/assets/3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
 
 
                 <div class="caracteristicas">
-                    <p> <img class="map">Lugar: Ciudad, País</p>
-                    <p> <img class="money">Precio: $1,000,000</p>
-                    <p> <img class="description">Descripción:</p>
-                    <p>Esta es una descripcion de vivienda ejemplo () dentro del parentesis va la informacion almacenada en la base de datos y se muestra aqui.</p>
-                    <h3>Características Adicionales</h3>
-                    <ul>
+                    
+                    <button class="round-button"><img class="favorite"></button>
+                    <button class="round-button"><img class="share"></button>
+                    <button class="round-button"><img class="other"></button>
+
+                  
+                   
+                        <h3 mat-subheader>Características:</h3>
+
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td><h3>Baños</h3></td>
+                                    <td><h3>Recamaras</h3></td>
+                                    <td><h3>Cochera</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>m^2</h3></td>
+                                    <td><h3>Jardin</h3></td>
+                                    <td><h3>Pisos</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Bodega</h3></td>
+                                    <td><h3>Cisterna</h3></td>
+                                    <td><h3>Piscina</h3></td>
+                                </tr>
+                                            <!-- Puedes agregar más filas según sea necesario -->
+                            </table>  
+                            <h3 mat-subheader>Informacion Adicional</h3>
+                            <div class="xd">
+                                
+
+
+                     <!-- ******************************* -->
+                     
+                      
+
+                    <!-- <ul>
                         <p> <img class="wc">2 Baño(s)</p>
                         <p> <img class="garage"> 1 Cochera(s)</p>
                         <p> <img class="room">3 Dormitorio(s)</p>
                         <p> <img class="m2"> 15m^2 x 8m^2</p>
-                        <!-- Agrega más características si es necesario -->
-                    </ul>
+                       
+                    </ul> -->
                 </div>
                 </div>
             </div>
@@ -58,23 +131,21 @@
                             </div>
                             <div class="form-group">
                                 <label for="comentarios">Comentarios:</label>
-                                <textarea id="comentarios" name="comentarios"></textarea>
+                                <textarea id="comentarios" name="comentarios">Hola, buenas tardes me interesa esta propiedad y quisiera ponerme en contacto con usted para poder agendar una fecha y hora para visitar dicha propiedad. </textarea>
                             </div>
-                            <button class="btn btn-outline-success me-2" type="submit">Enviar <img class="plane"></button>
+                            <button mat-raised-button color="accent">Enviar <img class="plane"></button>
+                            <div>
+                            <button mat-raised-button color="green" class="whatsapp">Enviar un mensaje por WhatsApp <img class="plane"></button>
+                            </div>
                         </form>
                 </form>
             </div>
           </div>
     </div>
     
-
-
+    <div class="divider"></div>
 
     
-    <app-visualtour></app-visualtour>
-   
-    <app-conocenos></app-conocenos>
-    <div class="divider"></div>
-    <app-descarga></app-descarga>
-    <app-footer></app-footer>
 </div>
+ 
+
